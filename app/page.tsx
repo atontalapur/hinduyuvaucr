@@ -5,18 +5,20 @@ import Header from "../components/Header";
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/Book.css";
+
 import "@fontsource/clear-sans";
 import { BsFacebook, BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useState, useEffect } from "react";
 
+
 export default function Page() {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768); // This matches Tailwind's 'md' breakpoint
-    };
+    };  
     handleResize(); // Check initial size
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
@@ -26,10 +28,12 @@ export default function Page() {
       <>
         {/* <div className='min-h-screen bg-gray-100'> */}
         {/* <main> */}
+        
         <Header />
+
         <section
           id='home'
-          className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+          className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400 reveal reveal.visible'>
           <div className='container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 mt-16 lg:mt-24'>
             {" "}
             {/* Added top margin */}
@@ -99,7 +103,7 @@ export default function Page() {
             </a>
           </div>
         </section>
-        <section id='about' className='py-8 bg-gray-100'>
+        <section id='about' className='reveal reveal.visible py-8 bg-gray-100 '>
           <div className='container mx-auto px-4 max-w-7xl'></div>
         </section>
         {/* </main> */}
@@ -111,12 +115,13 @@ export default function Page() {
       <>
         {/* <div className='min-h-screen bg-gray-100 tah-clear-sans'> */}
         <Header />
+        
         {/* <MobileHeader/> */}
 
         <main className='powerpoint-scroll-container'>
           <section
             id='home'
-            className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
+            className='reveal reveal.visible min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
             <div className='items-center text-center'>
               <h2 className='text-center tah-clear-sans mr-9 pl-12 pr-12'>
                 The Hindu-American Mosaic is the inaugural publication from The
@@ -143,7 +148,7 @@ export default function Page() {
               src='/book-rhs.png'
             />
           </section>
-          <div className='bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+          <div className='reveal reveal.visible bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
             <section
               id='about'
               className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8'>
@@ -254,7 +259,7 @@ export default function Page() {
           </div>
           <section
             id='join'
-            className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+            className='center min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
             <div className='container mx-auto px-4 max-w-7xl'>
               <div className='flex flex-col md:flex-row items-start justify-between'>
                 <div className='text-white md:w-2/3 pr-0 md:pr-8'>
@@ -262,7 +267,7 @@ export default function Page() {
                     Join Our Community
                   </h2>
                   <p className='text-xl sm:text-2xl mb-6 text-left'>
-                    Become a part of The American Hindu's mailing list to stay
+                    Become a part of The American Hindu to stay
                     updated on our mission to create Hindu representation in
                     mixed media.
                   </p>
@@ -278,30 +283,30 @@ export default function Page() {
                 </div>
                 <div
                   id='social-icons-container'
-                  className='grid grid-cols-2 p-20'>
+                  className='grid grid-cols-2 p-30 font-size: 25 mr-12 pr-7'>
                   <a
                     target='_blank'
                     href='https://facebook.com/TheAmericanHinduPage'
                     className='pr-10 pb-10'>
-                    <BsFacebook />
+                    <BsFacebook size={30} />
                   </a>
                   <a
                     target='_blank'
                     href='https://instagram.com/theamericanhindu'
                     className='pl-10 pb-10'>
-                    <FaInstagram />
+                    <FaInstagram size={30} />
                   </a>
                   <a
                     target='_blank'
                     href='https://x.com/American_Hindu'
                     className='pr-10 pt-10'>
-                    <BsTwitterX />
+                    <BsTwitterX size={30} />
                   </a>
                   <a
                     target='_blank'
                     href='mailto:theamericanhindu@gmail.com'
                     className='pt-10 pl-10'>
-                    <MdEmail />
+                    <MdEmail size={30} />
                   </a>
                 </div>
               </div>

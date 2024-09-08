@@ -104,11 +104,13 @@ html, body {
     margin: 0; /* Removes default margin */
     padding: 0; /* Removes default padding */
     overflow-x: hidden; /* Prevents horizontal scroll if overflow occurs */
-    scroll-behavior: smooth;
+    
     height: 100%; /* Ensures body takes full height */
+    
   }
   
   .powerpoint-scroll-container {
+    scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     height: 100vh;
     overflow-y: scroll;
