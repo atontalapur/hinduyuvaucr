@@ -27,43 +27,6 @@ export default function Page() {
       {/* <MobileHeader/> */}
 
       <main>
-        <section id="book" className="min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-5 custom-book">
-          <h2 className="text-center tah-clear-sans mb-12 ">
-            The Hindu-American Mosaic is the inaugural publication from The American Hindu,
-            offering a tribute to the history and evolution of the Hindu community in the United States.
-            Through recounts of various chapters of this multi-century history,
-            this book delves into the diverse experiences and contributions of Hindu-Americans,
-            celebrating their cultural heritage and impact on the broader American landscape.
-          </h2>
-          <img className="max-w-[55%] max-h-[55%] book-img-blur book-img-style" src="/book-rhs.png" />
-        </section>
-        <section
-          id='book'
-          className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
-          <div className='items-center text-center '>
-            <h2 className='text-center tah-clear-sans mr-9'>
-              The Hindu-American Mosaic is the inaugural publication from The
-              American Hindu, offering a tribute to the history and evolution of
-              the Hindu community in the United States. Through recounts of
-              various chapters of this multi-century history, this book delves
-              into the diverse experiences and contributions of Hindu-Americans,
-              celebrating their cultural heritage and impact on the broader
-              American landscape.
-            </h2>
-            <a href="https://www.amazon.com/Hindu-American-Mosaic-American-Hindu/dp/B0DFXH93R5/ref=sr_1_1?crid=3SA73LG61AA4M&dib=eyJ2IjoiMSJ9.Gfjy2LwA45QqeZE91v_F24dWWVqWxr3x4PlwrK449Ao.ZotFrzLZ9fB1lo90LnksUfkDdI_SDfp5FZw3F2oxWh0&dib_tag=se&keywords=the+hindu+american+mosaic&qid=1725719899&sprefix=the+american+hindu%2Caps%2C116&sr=8-1">
-              <button className='w-60 buy-book-button-before text-gray-800 hover:text-black font-bold py-3 sm:py-4 px-9 mt-14 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans buy-book '>
-                Buy Now
-              </button>
-            </a>
-            {/* <Button className='buy-book-button border-1px-black mt-8' onClick={buyBook}>
-              Buy Now
-            </Button> */}
-          </div>
-          <img
-            className='max-w-[55%] max-h-[55%] book-img-blur book-img-style'
-            src='/book-rhs.png'
-          />
-        </section>
         <section
           id='home'
           className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
