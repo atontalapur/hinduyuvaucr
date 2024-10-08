@@ -16,8 +16,11 @@ const Member = ({picture, name, role, major, ig, li, git, id,fb}) => {
         <p className='member-role'>{role}</p>
         <p className='member-major'>{major}</p>
         <div className='member-socials'>
-            <a target="_blank" href={ig}><FaInstagram/></a>
 
+            {ig != "false" && (
+                <a target="_blank" href={ig}><FaInstagram/></a>
+            )}
+            
             {li != "false" && (
                 <a target="_blank" href={li}><BsLinkedin/></a>
             )}

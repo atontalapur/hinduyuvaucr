@@ -84,10 +84,14 @@
 
 
 #sumedh{
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
 
 #mangesh{
+    animation-delay: 0.25s;
+}
+
+#ritika{
     animation-delay: 0.4s;
 }
 
@@ -103,7 +107,9 @@
     font-size: 1.5vw;
     margin-bottom: 0;
     font-weight: 400;
-    color:rgb(42, 42, 42);
+    /* color:rgb(42, 42, 42); */
+    /* color: rgb(255, 247, 235); */
+    color: white;
 }
 
 .member-major{
@@ -118,7 +124,8 @@
     font-size: 0.8vw;
     margin-bottom: -5px;
     font-weight: 100;
-    color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
 }
 
 

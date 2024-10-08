@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, act } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -27,6 +27,7 @@ export default function Header() {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
+
           return rect.top <= 100 && rect.bottom >= 100;
         }
         return false;
@@ -42,6 +43,7 @@ export default function Header() {
   }, [pathname]);
 
   const navItems = [
+    // { name: "Book", href: "#book" },
     { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
     { name: "Team", href: "#team" },
@@ -51,56 +53,60 @@ export default function Header() {
   if (isMobile) {
     return (
       <>
-    <div className='mx-auto flex justify-center flex-col items-center mb-4 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
-                <img
-                    src="swami.jpg"
-                    alt="The American Hindu Logo"
-                    className="w-50 h-50 object-cover rounded-full overflow-hidden max-w-[100px] max-h-[100px] bg-red-100 mt-2"
-                />
-            
-    
-    <div className="header-socials">
-    <a target="_blank" href="https://google.com"><BsFacebook/></a>
-    <a target="_blank" href="https://google.com"><BsInstagram/></a>
-    <a target="_blank" href="https://google.com"><BsTwitterX/></a>
-    <a target="_blank" href="https://google.com"><BsYoutube/></a>
-    </div>
-    
-    </div>
-  </>
-    ); // Don't render the header on mobile devices
+        <div className='flex justify-center flex-col items-center bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+          <img
+            src='swami.jpg'
+            alt='The American Hindu Logo'
+            className='w-50 h-50 object-cover rounded-full overflow-hidden max-w-[100px] max-h-[100px] bg-red-100 mt-2'
+          />
+
+          <div className='header-socials flex flex-row gap-5 pt-2 pb-2'>
+            <a target='_blank' href='https://google.com'>
+              <BsFacebook />
+            </a>
+            <a target='_blank' href='https://google.com'>
+              <BsInstagram />
+            </a>
+            <a target='_blank' href='https://google.com'>
+              <BsTwitterX />
+            </a>
+            <a target='_blank' href='https://google.com'>
+              <BsYoutube />
+            </a>
+          </div>
+        </div>
+      </>
+    ); // Render Differently on Mobile
   }
 
   return (
-    <header className="fixed top-6 left-1/2 transform -translate-x-1/2 bg-transparent backdrop-blur-md z-50 rounded-2xl shadow-lg w-[90%] max-w-[900px] .tah-clear-sans">
-      <div className="px-4 sm:px-8 py-3 flex items-center justify-between">
+    <header className='fixed top-6 left-1/2 transform -translate-x-1/2 bg-transparent backdrop-blur-md z-50 rounded-2xl shadow-lg w-[90%] max-w-[900px] .tah-clear-sans'>
+      <div className='px-4 sm:px-8 py-3 flex items-center justify-between'>
         {navItems.map((item) => (
           <Link
             key={item.name}
             href={item.href}
-            className={`text-gray-700 hover:text-gray-900 transition duration-300 text-center text-base sm:text-lg font-semibold px-2 sm:px-4 ${
-              activeSection === item.href.slice(1) ? "text-gray-900" : ""
-            }`}
-          >
-            <span className="relative inline-block">
+            className={`text-white hover:text-gray-400 transition duration-300 text-center text-base sm:text-lg font-semibold px-2 sm:px-4 ${
+              activeSection === item.href.slice(1) ? "text-white" : ""
+            }`}>
+            <span className='relative inline-block'>
               {item.name}
-              <span
+              {/* <span
                 className={`absolute -bottom-1 left-0 h-0.5 bg-gray-700 transition-all duration-300 ${
                   activeSection === item.href.slice(1)
                     ? "w-full"
                     : "w-0 group-hover:w-full"
-                }`}
-              ></span>
+                }`}></span> */}
             </span>
           </Link>
         ))}
-        <div className="flex justify-center px-2 sm:px-4">
+        <div className='flex justify-center px-2 sm:px-4'>
           <Image
-            src="/swami.jpg"
-            alt="Swami Logo"
+            src='/swami.jpg'
+            alt='Swami Logo'
             width={60}
             height={60}
-            className="rounded-full"
+            className='rounded-full'
           />
         </div>
       </div>
