@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
 import Image from "next/image";
 import Member from "../components/Member";
+import "../styles/Gallery.css";
 // import Navbar from "../components/Navbar";
 import "../styles/Book.css";
 import "@fontsource/clear-sans";
@@ -174,7 +175,7 @@ export default function Page() {
         <main className='powerpoint-scroll-container'>
           <section
             id='home'
-            className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
+            className='animate-background min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
             
             <div className='items-center text-center'>
             <p className='text-2xl sm:text-2xl lg:text-4xl text-center mb-16'>
@@ -428,17 +429,6 @@ export default function Page() {
                 </div>
               </div>
             </div>
-          </section>
-          <section
-            id="instagram-feed"
-            className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
-            <div className='mt-16 mb-(-4)'
-              style={{ display: 'flex', justifyContent: 'center' }}>
-              <InstagramEmbed url="https://www.instagram.com/p/DA1lznXy6BG/?igsh=MzRlODBiNWFlZA==" width={328} captioned />
-            </div>
-            <p className='fixed bottom-1 opacity-50 left-2'>
-              © 2024 The American Hindu. All rights reserved.
-            </p>
           </section>
         </main>
 
