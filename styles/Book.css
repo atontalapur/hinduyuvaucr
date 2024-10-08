@@ -25,6 +25,14 @@
     animation-delay: 0.2s;
 }
 
+.home-background {
+    background-image: url('/Sankalp.jpeg');
+    background-position: center; /* Center the background image */
+    background-size: 100%; /* Ensure the image covers the entire element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    
+}
+
 @keyframes fadeInUp-book-img {
     0% {
         opacity: 50%;

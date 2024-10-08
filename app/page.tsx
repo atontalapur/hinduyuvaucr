@@ -175,31 +175,28 @@ export default function Page() {
           <section
             id='home'
             className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
+            
             <div className='items-center text-center'>
-              <h2 className='text-center tah-clear-sans mr-9 pl-12 pr-12 pb-8'>
+            <p className='text-2xl sm:text-2xl lg:text-4xl text-center mb-16'>
+                Welcome to Hindu YUVA at the University of California, Riverside
+            </p>
+              <h2 className=' text-center tah-clear-sans mr-9 pl-12 pr-12 pb-8'>
                 Hindu YUVA aims to provide a platform to preserve, practice, promote, and protect
                 Hindu Dharma by bringing together Hindu youth on college campuses across North America.
                 Hindu YUVA creates opportunities for college communities (students, staff, and faculty members)
                 to understand and practice Hindu Dharma or the Hindu way of life.
               </h2>
-              <a
-                target='_blank'
-                className=''
-                href='https://www.amazon.com/Hindu-American-Mosaic-American-Hindu/dp/B0DFXH93R5/ref=sr_1_1?crid=3SA73LG61AA4M&dib=eyJ2IjoiMSJ9.Gfjy2LwA45QqeZE91v_F24dWWVqWxr3x4PlwrK449Ao.ZotFrzLZ9fB1lo90LnksUfkDdI_SDfp5FZw3F2oxWh0&dib_tag=se&keywords=the+hindu+american+mosaic&qid=1725719899&sprefix=the+american+hindu%2Caps%2C116&sr=8-1'>
-                <button className=' pt-[5%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
-                  Buy Now
-                </button>
-              </a>
+              
               {/* <Button className='buy-book-button border-1px-black mt-8' onClick={buyBook}>
               Buy Now
             </Button> */}
             </div>
             <img
               className='max-w-[55%] max-h-[55%] book-img-blur book-img-style'
-              src='/book-rhs.png'
+              src='/HinduYUVA@UCRF2024.jpg'
             />
           </section>
-          <div className='bg-gradient-to-br from-red-600 via-navy-900 to-sky-400 '>
+          <div className='bg-gradient-to-br from-red-500 via-navy-9 00 to-sky-400 '>
             <section
               id='about'
               className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8'>

@@ -55,7 +55,7 @@ export default function Header() {
       <>
         <div className='flex justify-center flex-col items-center bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
           <img
-            src='swami.jpg'
+            src='HinduYUVA-UCR.jpg'
             alt='The American Hindu Logo'
             className='w-50 h-50 object-cover rounded-full overflow-hidden max-w-[100px] max-h-[100px] bg-red-100 mt-2'
           />
@@ -102,7 +102,7 @@ export default function Header() {
         ))}
         <div className='flex justify-center px-2 sm:px-4'>
           <Image
-            src='/swami.jpg'
+            src='/HinduYUVA-UCR.jpg'
             alt='Swami Logo'
             width={60}
             height={60}
