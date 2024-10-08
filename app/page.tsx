@@ -50,18 +50,13 @@ export default function Page() {
             </div>
             <div className='w-full lg:w-1/2 text-center lg:text-left'>
               <h2 className='text-xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold mb-6'>
-                Welcome to The American Hindu
+                Welcome to Hindu YUVA at UCR
               </h2>
               <p className='text-base xs:text-lg sm:text-xl mb-8 mx-auto lg:mx-0 max-w-md'>
-                The American Hindu is a platform for second-generation American
-                Hindus to express their unique perspective, blending American
-                upbringing with Hindu values. Independent of established
-                organizations, we're a team of young professionals and students
-                aiming to fill the gap in representation for U.S.-raised Hindus.
-                Through social media and our website, we engage in dialogue,
-                educate, and explore Hindu culture's contributions to the world.
-                We invite you to join our conversations and be part of The
-                American Hindu.
+                Hindu YUVA aims to provide a platform to preserve, practice, promote, and protect Hindu Dharma
+                by bringing together Hindu youth on college campuses across North America. Hindu YUVA creates
+                opportunities for college communities (students, staff, and faculty members) to understand and
+                practice Hindu Dharma or the Hindu way of life.
               </p>
             </div>
           </div>
@@ -69,7 +64,7 @@ export default function Page() {
             {" "}
             {/* Increased top margin */}
             <a
-              href='https://forms.gle/W6zBeMVQzswTN1CK8'
+              href='https://highlanderlink.ucr.edu/organization/hinduyuvaucr'
               target='_blank'
               rel='noopener noreferrer'
               className='inline-block w-full sm:w-auto'>
@@ -78,7 +73,7 @@ export default function Page() {
               </button>
             </a>
             <a
-              href='https://www.instagram.com/theamericanhindu/'
+              href='https://www.instagram.com/ucrhinduyuva/'
               target='_blank'
               rel='noopener noreferrer'
               className='w-full sm:w-auto bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold py-3 sm:py-4 px-6 rounded-full hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg flex items-center justify-center text-xl sm:text-2xl'>
@@ -97,7 +92,7 @@ export default function Page() {
                 <path d='M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z'></path>
                 <line x1='17.5' y1='6.5' x2='17.51' y2='6.5'></line>
               </svg>
-              @theamericanhindu
+              @ucrhinduyuva
             </a>
           </div>
         </section>
@@ -107,28 +102,23 @@ export default function Page() {
           className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
           <div className='container mx-auto px-4 max-w-7xl'>
             <p className='text-lg sm:text-xl lg:text-2xl text-center mb-8'>
-              The American Hindu is a dynamic, youth-driven initiative that
-              began as an Instagram content creator in January.
+              Our Mission
             </p>
             <p className='text-md sm:text-lg lg:text-xl text-center mb-8'>
-              Seeing a lack of informative content on Hindu culture,
-              Hindu-American students and young professionals from around the
-              country came together to fill the void on social media. Focusing
-              on education and advocacy of Hindu topics, the page features
-              several post series such as Hinduism 101, Sanskrit
-              Non-Translatables, Festival Posts, and Trending Topics.
+              To create a platform to protect, preserve, practice, and promote Hindu Dharma.
+              We aim to develop character and leadership skills in our members by emphasizing
+              values such as self-discipline, self-confidence, and a spirit of selfless service to the society.
+            </p>
+            <p className='text-lg sm:text-xl lg:text-2xl text-center mb-8'>
+              Our Vission
             </p>
             <p className='text-md sm:text-lg lg:text-xl text-center mb-8'>
-              The American Hindu has since evolved into a self-publishing
-              organization specializing in a diverse range of Hindu educational
-              content. Through a blend of traditional and modern mixed-media
-              formats, including print and digital publications, videos, and
-              interactive resources, the organization aims to make Hindu
-              culture, philosophy, and history accessible and engaging for a
-              wide audience. By empowering young creators and fostering a
-              collaborative environment, The American Hindu preserves and
-              promotes cultural heritage and encourages the exploration and
-              understanding of Hindu traditions in a contemporary context.
+              Young Hindu Americans carry a great deal of responsibility to share this culture,
+              preserve its meaning, and practice its universal values as the inheritors of this way of life.
+              Hindu YUVA derives its inspiration from this ancient knowledge and understands the mammoth task
+              lying in front of the young Hindu Americans. Hindu YUVA aims to provide a platform to preserve,
+              practice, promote, and protect Hindu Dharma by bringing together Hindu college students and young
+              professionals across the United States.
             </p>
           </div>
         </section>
