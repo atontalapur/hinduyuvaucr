@@ -230,7 +230,7 @@ export default function Page() {
                   videos, and interactive resources, the organization aims to
                   make Hindu culture, philosophy, and history accessible and
                   engaging for a wide audience. By empowering young creators and
-                  fostering a collaborative environment, The American Hindu
+                  fostering a collaborative environment, Th American Hindu
                   preserves and promotes cultural heritage and encourages the
                   exploration and understanding of Hindu traditions in a
                   contemporary context.
@@ -238,6 +238,150 @@ export default function Page() {
               </div>
             </section>
           </div>
+          <section
+          id='team'
+            className='min-h-screen flex flex-col items-center justify-center text-white bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+            <p className='text-2xl sm:text-2xl lg:text-4xl text-center mt-16'>
+                Excecutive Committee
+            </p>
+          <div className='team-page-container'>
+              
+            
+              <Member
+                 picture={<img src={"/swami.jpg"} />}
+                 name='Srivani Kollu'
+                 role='President'
+                 major='Hindu'
+                 ig='https://www.instagram.com/theamericanhindu/'
+                 li=''
+                 git=''
+                 id='mangesh'
+                 fb='false'
+              />
+              <Member
+                 picture={<img src={"/swami.jpg"} />}
+                 name='Raghav Sharma'
+                 role='Vice President'
+                 major='Hindu'
+                 ig='https://www.instagram.com/theamericanhindu/'
+                 li=''
+                 git=''
+                 id='mangesh'
+                 fb='false'
+              />
+              <Member
+                picture={<img src={"/swami.jpg"} />}
+                name='Advaith Tontalapur'
+                role='Events and Meetings Director|Developer'
+                major='Hindu'
+                ig='https://www.instagram.com/theamericanhindu/'
+                li=''
+                git=''
+                id='mangesh'
+                fb='false'
+              />
+              <Member
+                 picture={<img src={"/swami.jpg"} />}
+                 name='Ram Rao'
+                 role='Treasurer|Developer'
+                 major='Hindu'
+                 ig='https://www.instagram.com/theamericanhindu/'
+                 li=''
+                 git=''
+                 id='mangesh'
+                 fb='false'
+              />
+              <Member
+                 picture={<img src={"/swami.jpg"} />}
+                 name='Jeevan Rao'
+                 role='Social Media and PR Director'
+                 major='Hindu'
+                 ig='https://www.instagram.com/theamericanhindu/'
+                 li=''
+                 git=''
+                 id='mangesh'
+                 fb='false'
+              />
+               </div>
+               <p className='text-2xl sm:text-2xl lg:text-4xl text-center'>
+                Events Committee
+            </p>
+            <div className='team-page-container'>
+            <Member
+                 picture={<img src={"/swami.jpg"} />}
+                 name='Rupa V Gowda'
+                 role='Events Coordinator'
+                 major='Hindu'
+                 ig='https://www.instagram.com/theamericanhindu/'
+                 li=''
+                 git=''
+                 id='mangesh'
+                 fb='false'
+              />
+              <Member
+                 picture={<img src={"/swami.jpg"} />}
+                 name='Diya Patel'
+                 role='GBM Coordinator'
+                 major='Hindu'
+                 ig='https://www.instagram.com/theamericanhindu/'
+                 li=''
+                 git=''
+                 id='mangesh'
+                 fb='false'
+              />
+              <Member
+                 picture={<img src={"/swami.jpg"} />}
+                 name='Adeti Krishnan'
+                 role='GBM Coordinator'
+                 major='Hindu'
+                 ig='https://www.instagram.com/theamericanhindu/'
+                 li=''
+                 git=''
+                 id='mangesh'
+                 fb='false'
+              />
+
+            </div>
+            <p className='text-2xl sm:text-2xl lg:text-4xl text-center'>
+                Social Media and Public Relations Committee
+            </p>
+            <div className='team-page-container'>
+            <Member
+                picture={<img src={"/swami.jpg"} />}
+                name='Tarun Vadapalli'
+                role='Graphic Designer|Developer'
+                major='Hindu'
+                ig='https://www.instagram.com/theamericanhindu/'
+                li=''
+                git=''
+                id='mangesh'
+                fb='false'
+              />
+              <Member
+                 picture={<img src={"/swami.jpg"} />}
+                 name='Aarya Manoj'
+                 role='Social Media Coordinator'
+                 major='Hindu'
+                 ig='https://www.instagram.com/theamericanhindu/'
+                 li=''
+                 git=''
+                 id='mangesh'
+                 fb='false'
+              />
+              <Member
+                 picture={<img src={"/swami.jpg"} />}
+                 name='Yogi Marella'
+                 role='Student Ambassador'
+                 major='Hindu'
+                 ig='https://www.instagram.com/theamericanhindu/'
+                 li=''
+                 git=''
+                 id='mangesh'
+                 fb='false'
+              />
+             </div>
+            
+        </section>
           <section
             id='join'
             className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
