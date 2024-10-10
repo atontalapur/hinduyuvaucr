@@ -2,7 +2,6 @@
 
 import React from "react";
 import Header from "../components/Header";
-import BackgroundCarasoul from "../components/Home";
 import MobileHeader from "../components/MobileHeader";
 import Image from "next/image";
 import Member from "../components/Member";
@@ -212,7 +211,13 @@ export default function Page() {
               src='/HinduYUVAPerson.png'
             />
           </section>
-
+          <section className='youtube-background'>
+          <div className='ml-[17%] mt-[-15%] mb-16'>
+              <iframe width="1070" height="600" src="https://www.youtube-nocookie.com/embed/SOLQo1HFOTY?si=wTMGNQBZla7NO8xx&amp;start=0"
+                title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+          </section>
           {/* <section
             id='team'
             className='min-h-screen flex flex-col items-center justify-center text-white bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
@@ -352,10 +357,7 @@ export default function Page() {
               </div>
             </div>
           </section> */}
-          {/* <Footer /> */}
-          <p className='fixed bottom-1 opacity-50 left-2'>
-            © 2024 Hindu YUVA at UCR. All rights reserved.
-          </p>
+          <Footer />
         </main>
       </>
 

@@ -1,31 +1,45 @@
-import React from 'react'
-import '../styles/Footer.css'
-import { FaInstagram} from 'react-icons/fa'
+import React from 'react';
+import Link from 'next/link';
+import '../styles/Footer.css'; // Import the CSS file
+import { FaInstagram } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
-  return (
-    <div className='footer-container'>
-        <div className='foot-branding'>
-            <span>Code & Design by </span>
-            <img src='/swami.jpg'/>
-            <span>The American Hindu</span>
-            <a target="_blank" href="https://www.instagram.com/theamericanhindu/">
-                <FaInstagram className='foot-social'/>
-            </a>
-            {/*
-            <a target="_blank" href="https://twitter.com/nitesoutent">
-                <FaTwitter className='foot-social'/>
-            </a>
-            <a target="_blank" href="">
-                <FaTiktok className='foot-social'/>
-            </a>
-            */}
-        </div>
+    return (
+        <footer className="footer">
+            <div className="footer-container">
+                
+                <div className="footer-logo">
+                    <img src="/HinduYUVA-NBUCR.png" alt="Hindu YUVA Logo" width={200} height={120} className="mb-[-20%] rounded-full" />
 
-        <p>theamericanhindu@gmail.com</p>
+                </div>
+                <div className="text-3xl footer-social-links " >
+                    <a
+                        target='_blank'
+                        href='mailto:ucrhinduyuva@gmail.com'>
+                        <MdEmail />
+                    </a>
+                    <a
+                        target='_blank'
+                        href='https://instagram.com/ucrhinduyuva'>
+                        <FaInstagram />
+                    </a>
+                </div>
+                
+            </div>
+            <div className ='footer-links-container'>
+                    <div className="text-black text-3xl footer-links ">
+                        <Link href="#about" className="footer-link">About Us</Link>
+                        <Link href="/events" className="footer-link">Our Work</Link>
+                        <Link href="/team" className="footer-link">Our Team</Link>
+                        <Link href="/join" className="footer-link">Get Involved</Link>
+                    </div>
+            </div>
+            <div className="footer-bottom">
+                <p>© 2024 Hindu YUVA at The University of California, Riverside. All rights reserved.</p>
+            </div>
+        </footer>
+    );
+};
 
-    </div>
-  )
-}
-
-export default Footer
+export default Footer;

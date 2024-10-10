@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Hindu YUVA at UCR",
-  description: "Bringing together Hindus at UCR",
+  description: "A platform to preserve, practice, promote, and protect Dharma at UCR.",
 };
 
 export default function RootLayout({

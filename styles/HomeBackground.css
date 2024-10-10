@@ -1,4 +1,5 @@
 
+
 .banner-text {
     position: relative;
     top: 20%; /* Adjust this value to position the text vertically */
@@ -43,15 +44,6 @@
 }
 
 
-.website-logo {
-    display: block;
-    position: absolute;
-    top: 54px;
-    right: 54px;
-    opacity: 0;
-    transition: opacity .5s;
-}
-
 @keyframes slider {
     0% {
         left: 0;
@@ -74,5 +66,9 @@
     100%{
         left: 0%
     }
+}
 
+.youtube-background{
+    background-color: #f3f1ef;
+    min-height: 100px;
 }

@@ -44,10 +44,10 @@ export default function Header() {
 
   const navItems = [
     // { name: "Book", href: "#book" },
-    { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
-    { name: "Our Work", href: "#team" },
-    { name: "Team", href: "#join" },
+    { name: "Our Work", href: "#events" },
+    { name: "Team", href: "#team" },
+    { name: "Get Involved", href: "#join" },
   ];
 
   if (isMobile) {
