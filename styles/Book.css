@@ -1,5 +1,5 @@
 .custom-book{
-    background: linear-gradient(to bottom right, #3b0d5e, #9b70b6)
+    background: linear-gradient(to bottom right, #222222 , #ffffff )
 }
 
 
@@ -31,6 +31,9 @@
     background-size: 100%; /* Ensure the image covers the entire element */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     
+}
+
+.one-line-text {
 }
 
 @keyframes fadeInUp-book-img {
@@ -132,7 +135,14 @@ html, body {
   
   section {
     scroll-snap-align: start;
-    height: 100vh;
-    width: 100vw; /* Ensures each section spans full width */
   }
 
+  .text-container {
+    padding: 10px; /* Add padding to the container */
+    margin: 0 auto; /* Center the container */
+    min-height: 1px;
+    min-width: 600px; /* Set a maximum width for the container */
+    font-size: 1.2em; /* Adjust font size as needed */
+    text-align: justify; /* Justify the text for a clean look */
+    z-index: 10;
+}

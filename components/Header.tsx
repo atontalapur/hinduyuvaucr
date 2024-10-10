@@ -46,8 +46,8 @@ export default function Header() {
     // { name: "Book", href: "#book" },
     { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
-    { name: "Team", href: "#team" },
-    { name: "Join Us", href: "#join" },
+    { name: "Our Work", href: "#team" },
+    { name: "Team", href: "#join" },
   ];
 
   if (isMobile) {
@@ -80,15 +80,24 @@ export default function Header() {
   }
 
   return (
+
     <header className='fixed top-6 left-1/2 transform -translate-x-1/2 bg-transparent backdrop-blur-md z-50 rounded-2xl shadow-lg w-[90%] max-w-[900px] .tah-clear-sans'>
       <div className='px-4 sm:px-8 py-3 flex items-center justify-between'>
+        <div className='flex justify-center px-2 sm:px-4'>
+          <Image
+            src='/HinduYUVA-UCR.jpg'
+            alt='Swami Logo'
+            width={60}
+            height={80}
+            className='rounded-full'
+          />
+        </div>
         {navItems.map((item) => (
           <Link
             key={item.name}
             href={item.href}
-            className={`text-white hover:text-gray-400 transition duration-300 text-center text-base sm:text-lg font-semibold px-2 sm:px-4 ${
-              activeSection === item.href.slice(1) ? "text-white" : ""
-            }`}>
+            className={`text-white hover:text-gray-400 transition duration-300 text-center text-base sm:text-lg font-semibold px-2 sm:px-4 ${activeSection === item.href.slice(1) ? "text-black" : ""
+              }`}>
             <span className='relative inline-block'>
               {item.name}
               {/* <span
@@ -100,15 +109,7 @@ export default function Header() {
             </span>
           </Link>
         ))}
-        <div className='flex justify-center px-2 sm:px-4'>
-          <Image
-            src='/HinduYUVA-UCR.jpg'
-            alt='Swami Logo'
-            width={60}
-            height={80}
-            className='rounded-full'
-          />
-        </div>
+
       </div>
     </header>
   );

@@ -1,0 +1,78 @@
+
+.banner-text {
+    position: relative;
+    top: 20%; /* Adjust this value to position the text vertically */
+    right: 0%; /* Adjust this value to position the text horizontally */
+    padding: 20px;
+    color: rgb(235, 119, 10);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    z-index: 10; /* Ensure the text is in front */
+}
+.slider {
+    position: relative; /* Ensure the slider is positioned correctly */
+    overflow-x: hidden;
+}
+
+.slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.56)); /* Adjust the gradient as needed */
+    z-index: 1; /* Ensure the gradient is above the images */
+    pointer-events: none; /* Allow clicks to pass through the gradient */
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    animation: 20s slider infinite;
+    z-index: 0; /* Ensure the images are below the gradient */
+}
+
+.slider figure img {
+    float: left;
+    width: 20%;
+}
+
+
+.website-logo {
+    display: block;
+    position: absolute;
+    top: 54px;
+    right: 54px;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    40% {
+        left: -100%;
+    }
+    60% {
+        left: -100%;
+    }
+    80%{
+        left: -200%;
+    }
+    100%{
+        left: -200%;
+    }
+    100%{
+        left: 0%
+    }
+
+}
