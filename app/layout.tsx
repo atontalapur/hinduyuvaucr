@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "The American Hindu",
-  description: "A platform for second-generation American Hindus.",
+  title: "Hindu YUVA at UCR",
+  description: "Bringing together Hindus at UCR",
 };
 
 export default function RootLayout({

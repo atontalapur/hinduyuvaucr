@@ -57,7 +57,7 @@ export default function Header() {
           <img
             src='HinduYUVA-UCR.jpg'
             alt='The American Hindu Logo'
-            className='w-50 h-50 object-cover rounded-full overflow-hidden max-w-[100px] max-h-[100px] bg-red-100 mt-2'
+            className='w-70 h-70 object-cover rounded-full overflow-hidden max-w-[100px] max-h-[100px] bg-red-100 mt-2'
           />
 
           <div className='header-socials flex flex-row gap-5 pt-2 pb-2'>
@@ -105,7 +105,7 @@ export default function Header() {
             src='/HinduYUVA-UCR.jpg'
             alt='Swami Logo'
             width={60}
-            height={60}
+            height={80}
             className='rounded-full'
           />
         </div>

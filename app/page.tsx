@@ -166,6 +166,7 @@ export default function Page() {
         {/* <MobileHeader/> */}
 
         <main className='powerpoint-scroll-container'>
+        <div className ='bg-gradient-to-br from-orange-800 via-orange-500 to-orange-300 '>
           <section
             id='home'
             className='animate-background min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
@@ -189,8 +190,10 @@ export default function Page() {
               className='max-w-[55%] max-h-[55%] book-img-blur book-img-style'
               src='/HinduYUVA@UCRF2024.jpg'
             />
+            
           </section>
-          <div className='bg-gradient-to-br from-red-500 via-navy-9 00 to-sky-400 '>
+          </div>
+          <div className='bg-gradient-to-br from-orange-800 via-orange-500 to-orange-300 '>
             <section
               id='about'
               className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8'>
@@ -199,8 +202,8 @@ export default function Page() {
                   {" "}
                   {/* Decreased image size */}
                   <Image
-                    src='/swami.jpg'
-                    alt='TAH Logo'
+                    src='/HinduYUVA-UCR.jpg'
+                    alt='HYUCR Logo'
                     fill
                     style={{ objectFit: "contain" }}
                     className='rounded-lg book-img-blur book-img-style'
@@ -242,59 +245,34 @@ export default function Page() {
                  picture={<img src={"/swami.jpg"} />}
                  name='Srivani Kollu'
                  role='President'
-                 major='Hindu'
-                 ig='https://www.instagram.com/theamericanhindu/'
-                 li=''
-                 git=''
-                 id='mangesh'
-                 fb='false'
+                 
               />
               <Member
                  picture={<img src={"/swami.jpg"} />}
                  name='Raghav Sharma'
                  role='Vice President'
-                 major='Hindu'
-                 ig='https://www.instagram.com/theamericanhindu/'
-                 li=''
-                 git=''
-                 id='mangesh'
-                 fb='false'
+                 
               />
               <Member
                 picture={<img src={"/swami.jpg"} />}
                 name='Advaith Tontalapur'
                 role='Events and Meetings Director|Developer'
-                major='Hindu'
-                ig='https://www.instagram.com/theamericanhindu/'
-                li=''
-                git=''
-                id='mangesh'
-                fb='false'
+                
               />
               <Member
                  picture={<img src={"/swami.jpg"} />}
                  name='Ram Rao'
                  role='Treasurer|Developer'
-                 major='Hindu'
-                 ig='https://www.instagram.com/theamericanhindu/'
-                 li=''
-                 git=''
-                 id='mangesh'
-                 fb='false'
+                 
               />
               <Member
                  picture={<img src={"/swami.jpg"} />}
                  name='Jeevan Rao'
                  role='Social Media and PR Director'
-                 major='Hindu'
-                 ig='https://www.instagram.com/theamericanhindu/'
-                 li=''
-                 git=''
-                 id='mangesh'
-                 fb='false'
+                 
               />
                </div>
-               <p className='text-2xl sm:text-2xl lg:text-4xl text-center'>
+               <p className='text-2xl sm:text-2xl lg:text-4xl text-center mt-3'>
                 Events Committee
             </p>
             <div className='team-page-container'>
@@ -302,38 +280,23 @@ export default function Page() {
                  picture={<img src={"/swami.jpg"} />}
                  name='Rupa V Gowda'
                  role='Events Coordinator'
-                 major='Hindu'
-                 ig='https://www.instagram.com/theamericanhindu/'
-                 li=''
-                 git=''
-                 id='mangesh'
-                 fb='false'
+                 
               />
               <Member
                  picture={<img src={"/swami.jpg"} />}
                  name='Diya Patel'
                  role='GBM Coordinator'
-                 major='Hindu'
-                 ig='https://www.instagram.com/theamericanhindu/'
-                 li=''
-                 git=''
-                 id='mangesh'
-                 fb='false'
+                 
               />
               <Member
                  picture={<img src={"/swami.jpg"} />}
                  name='Adeti Krishnan'
                  role='GBM Coordinator'
-                 major='Hindu'
-                 ig='https://www.instagram.com/theamericanhindu/'
-                 li=''
-                 git=''
-                 id='mangesh'
-                 fb='false'
+                 
               />
 
             </div>
-            <p className='text-2xl sm:text-2xl lg:text-4xl text-center'>
+            <p className='text-2xl sm:text-2xl lg:text-4xl text-center mt-3'>
                 Social Media and Public Relations Committee
             </p>
             <div className='team-page-container'>
@@ -341,34 +304,19 @@ export default function Page() {
                 picture={<img src={"/swami.jpg"} />}
                 name='Tarun Vadapalli'
                 role='Graphic Designer|Developer'
-                major='Hindu'
-                ig='https://www.instagram.com/theamericanhindu/'
-                li=''
-                git=''
-                id='mangesh'
-                fb='false'
+                
               />
               <Member
                  picture={<img src={"/swami.jpg"} />}
                  name='Aarya Manoj'
                  role='Social Media Coordinator'
-                 major='Hindu'
-                 ig='https://www.instagram.com/theamericanhindu/'
-                 li=''
-                 git=''
-                 id='mangesh'
-                 fb='false'
+                 
               />
               <Member
                  picture={<img src={"/swami.jpg"} />}
                  name='Yogi Marella'
                  role='Student Ambassador'
-                 major='Hindu'
-                 ig='https://www.instagram.com/theamericanhindu/'
-                 li=''
-                 git=''
-                 id='mangesh'
-                 fb='false'
+                 
               />
              </div>
             
