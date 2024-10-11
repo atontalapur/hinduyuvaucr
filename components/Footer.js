@@ -28,7 +28,7 @@ const Footer = () => {
                 
             </div>
             <div className ='footer-links-container'>
-                    <div className="text-black text-3xl footer-links ">
+                    <div className="text-black text-3xl footer-links mt-[-20%]">
                         <Link href="#about" className="footer-link">About Us</Link>
                         <Link href="/events" className="footer-link">Our Work</Link>
                         <Link href="/team" className="footer-link">Our Team</Link>

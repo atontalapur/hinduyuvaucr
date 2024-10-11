@@ -160,13 +160,11 @@ export default function Page() {
   } else {
     return (
       <>
-        {/* <div className='min-h-screen bg-gray-100 tah-clear-sans'> */}
         <Header />
-
-
         <main>
-
-          <section id="new-home">
+         
+          <section id="#home">
+           
             <div className='banner-text'>
               <h1 className='mt-[10%]'> Hindu YUVA at </h1>
               <h1>The University of California, Riverside</h1>
@@ -174,7 +172,7 @@ export default function Page() {
               <a
                 target='_blank'
                 className=''
-                href='https://www.amazon.com/Hindu-American-Mosaic-American-Hindu/dp/B0DFXH93R5/ref=sr_1_1?crid=3SA73LG61AA4M&dib=eyJ2IjoiMSJ9.Gfjy2LwA45QqeZE91v_F24dWWVqWxr3x4PlwrK449Ao.ZotFrzLZ9fB1lo90LnksUfkDdI_SDfp5FZw3F2oxWh0&dib_tag=se&keywords=the+hindu+american+mosaic&qid=1725719899&sprefix=the+american+hindu%2Caps%2C116&sr=8-1'>
+                href='https://highlanderlink.ucr.edu/organization/hinduyuvaucr'>
                 <button className=' mt-[8%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
                   Join Now
                 </button>
@@ -197,7 +195,7 @@ export default function Page() {
             className='bg-white min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 '>
 
             <div className='items-center text-center mb-[20%]'>
-              <h2 className='text-black text-center tah-clear-sans mr-9 pl-12 pr-12 pb-8'>
+              <h2 className='text-2xl text-black text-center tah-clear-sans mr-9 pl-12 pr-12 pb-8'>
                 Hindu YUVA aims to provide a platform to preserve, practice, promote, and protect
                 Hindu Dharma by bringing together Hindu youth on college campuses across North America.
                 Hindu YUVA creates opportunities for college communities (students, staff, and faculty members)
@@ -211,7 +209,7 @@ export default function Page() {
               src='/HinduYUVAPerson.png'
             />
           </section>
-          <section className='youtube-background'>
+          <section className='drop-shadow-2xl youtube-background'>
           <div className='ml-[17%] mt-[-15%] mb-16'>
               <iframe width="1070" height="600" src="https://www.youtube-nocookie.com/embed/SOLQo1HFOTY?si=wTMGNQBZla7NO8xx&amp;start=0"
                 title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

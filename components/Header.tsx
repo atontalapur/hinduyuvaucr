@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useState, useEffect, act } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { BsFacebook, BsInstagram, BsTwitterX, BsYoutube } from "react-icons/bs";
+import "../styles/Header.css";
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState("");
@@ -22,94 +23,37 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "team", "join"];
+      const sections = ["about", "events", "team", "join"];
       const currentSection = sections.find((section) => {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
-
-          return rect.top <= 100 && rect.bottom >= 100;
+          return rect.top <= 0 && rect.bottom >= 0;
         }
         return false;
       });
       setActiveSection(currentSection || "");
+
     };
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  useEffect(() => {
-    setActiveSection(pathname.slice(1) || "home");
-  }, [pathname]);
-
-  const navItems = [
-    // { name: "Book", href: "#book" },
-    { name: "About Us", href: "#about" },
-    { name: "Our Work", href: "#events" },
-    { name: "Team", href: "#team" },
-    { name: "Get Involved", href: "#join" },
-  ];
-
-  if (isMobile) {
-    return (
-      <>
-        <div className='flex justify-center flex-col items-center bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
-          <img
-            src='HinduYUVA-UCR.jpg'
-            alt='The American Hindu Logo'
-            className='w-70 h-70 object-cover rounded-full overflow-hidden max-w-[100px] max-h-[100px] bg-red-100 mt-2'
-          />
-
-          <div className='header-socials flex flex-row gap-5 pt-2 pb-2'>
-            <a target='_blank' href='https://google.com'>
-              <BsFacebook />
-            </a>
-            <a target='_blank' href='https://google.com'>
-              <BsInstagram />
-            </a>
-            <a target='_blank' href='https://google.com'>
-              <BsTwitterX />
-            </a>
-            <a target='_blank' href='https://google.com'>
-              <BsYoutube />
-            </a>
-          </div>
-        </div>
-      </>
-    ); // Render Differently on Mobile
-  }
-
   return (
-
-    <header className='fixed top-6 left-1/2 transform -translate-x-1/2 bg-transparent backdrop-blur-md z-50 rounded-2xl shadow-lg w-[90%] max-w-[900px] .tah-clear-sans'>
-      <div className='px-4 sm:px-8 py-3 flex items-center justify-between'>
-        <div className='flex justify-center px-2 sm:px-4'>
-          <Image
-            src='/HinduYUVA-UCR.jpg'
-            alt='Swami Logo'
-            width={60}
-            height={80}
-            className='rounded-full'
-          />
+    <header className="header">
+      <div className="header-container">
+        <div className="z-50 header-logo">
+          <Image src="/HinduYUVA-NBUCR.png" alt="Logo" width={100} height={80} />
         </div>
-        {navItems.map((item) => (
-          <Link
-            key={item.name}
-            href={item.href}
-            className={`text-white hover:text-gray-400 transition duration-300 text-center text-base sm:text-lg font-semibold px-2 sm:px-4 ${activeSection === item.href.slice(1) ? "text-black" : ""
-              }`}>
-            <span className='relative inline-block'>
-              {item.name}
-              {/* <span
-                className={`absolute -bottom-1 left-0 h-0.5 bg-gray-700 transition-all duration-300 ${
-                  activeSection === item.href.slice(1)
-                    ? "w-full"
-                    : "w-0 group-hover:w-full"
-                }`}></span> */}
-            </span>
-          </Link>
-        ))}
-
+        <nav className="header-links z-50 text-2xl text-center mr-[18%]">
+          <Link href="#home" className={`header-link ${activeSection === "about" ? "active" : ""}`}>Home</Link>
+          <Link href="#about" className={`header-link ${activeSection === "about" ? "active" : ""}`}>About Us</Link>
+          <Link href="#events" className={`header-link ${activeSection === "events" ? "active" : ""}`}>Our Work</Link>
+          <Link href="#team" className={`header-link ${activeSection === "team" ? "active" : ""}`}>Team</Link>
+          <Link href="#join" className={`header-link ${activeSection === "join" ? "active" : ""}`}>Get Involved</Link>
+        </nav>
+        
       </div>
     </header>
   );

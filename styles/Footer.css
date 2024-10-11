@@ -36,6 +36,7 @@
 .footer-links {
     display: flex;
     gap: 20px;
+    bottom: 10;
 }
 
 .footer-link {
