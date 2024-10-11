@@ -67,8 +67,9 @@
 }
 
 .footer-bottom {
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 0.9em;
     opacity: 0.7;
     text-align: center;
+    bottom: 0;
 }

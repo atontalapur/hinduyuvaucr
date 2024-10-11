@@ -8,25 +8,50 @@ import Member from "../components/Member";
 import "../styles/HomeBackground.css";
 // import Navbar from "../components/Navbar";
 import "../styles/Book.css";
+import "../styles/Scroll.css";
 import "@fontsource/clear-sans";
 import { BsFacebook, BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useState, useEffect } from "react";
+import { Link, Element } from 'react-scroll';
 import Footer from "../components/Footer";
 import { InstagramEmbed } from 'react-social-media-embed';
 import { Homemade_Apple } from "next/font/google";
+import { useInView } from "react-intersection-observer";
+import { useRef } from "react";
 
 
 export default function Page() {
   const [isMobile, setIsMobile] = useState(false);
+
+  const homeRef = useRef(null);
+  const { ref: aboutRef, inView: aboutInView } = useInView({ triggerOnce: true, threshold: 0.1 });
+  const { ref: youtubeRef, inView: youtubeInView } = useInView({ triggerOnce: true, threshold: 0.1 });
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768); // This matches Tailwind's 'md' breakpoint
     };
+
+    const handleScroll = () => {
+      const elements = document.querySelectorAll('.hidden');
+      elements.forEach((element) => {
+        const rect = element.getBoundingClientRect();
+        if (rect.top < window.innerHeight) {
+          element.classList.add('visible');
+        }
+      });
+    };
+
     handleResize(); // Check initial size
     window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
 
@@ -36,7 +61,7 @@ export default function Page() {
       <div className='pb-9'>
         <MobileHeader />
         {/* <Navbar /> */}
-        <div className='mt-[-20%] powerpoint-scroll-container'>
+        <div className='mt-[-20%] poinpowert-scroll-container'>
           {/* <div className='min-h-screen bg-gray-100'> */}
           {/* <main> */}
 
@@ -92,6 +117,7 @@ export default function Page() {
               </div>
             </section>
           </div>
+
           <section
             id='join'
             className='mt-[-10%] min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
@@ -161,25 +187,22 @@ export default function Page() {
     return (
       <>
         <Header />
-        <main>
-         
+        <main >
           <section id="#home">
-           
             <div className='banner-text'>
-              <h1 className='mt-[10%]'> Hindu YUVA at </h1>
+              <h1 className='mt-[25%]'> Hindu YUVA at </h1>
               <h1>The University of California, Riverside</h1>
               <h2 className='mt-9'>A platform to preserve, practice, promote, and protect Dharma at UCR.</h2>
               <a
                 target='_blank'
                 className=''
                 href='https://highlanderlink.ucr.edu/organization/hinduyuvaucr'>
-                <button className=' mt-[8%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
+                <button className=' mt-[8%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
                   Join Now
                 </button>
               </a>
             </div>
-            <div className='slider gradient  mt-[-40%]'>
-
+            <div className='slider gradient  mt-[-42.5%] '>
               <figure>
                 <img src="/1.png" alt="image1" />
                 <img src="/2.png" alt="image1" />
@@ -189,33 +212,36 @@ export default function Page() {
             </div>
 
           </section>
-          <h2 className='text-3xl justify-center mt-11 ml-[45%]'>About Us</h2>
-          <section
-            id='about'
-            className='bg-white min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 '>
 
-            <div className='items-center text-center mb-[20%]'>
-              <h2 className='text-2xl text-black text-center tah-clear-sans mr-9 pl-12 pr-12 pb-8'>
-                Hindu YUVA aims to provide a platform to preserve, practice, promote, and protect
-                Hindu Dharma by bringing together Hindu youth on college campuses across North America.
-                Hindu YUVA creates opportunities for college communities (students, staff, and faculty members)
-                to understand and practice Hindu Dharma or the Hindu way of life.
-              </h2>
+          <section id="#about" ref={aboutRef} className={`transition-opacity duration-1000 ${aboutInView ? 'opacity-100' : 'opacity-0'}`}>
+            <h2 className='about text-4xl font-bold justify-center mt-11 ml-[40%]'>Who Are We?</h2>
+            <section
+              id='about'
+              className=' about bg-white min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>
 
-
-            </div>
-            <img
-              className='mb-[20%] max-w-[55%] max-h-[55%] book-img-blur book-img-style'
-              src='/HinduYUVAPerson.png'
-            />
+              <div className='items-center text-center mb-[9%]'>
+                <h2 className='text-2xl text-black text-center mr-9 pl-12 pr-12 pb-8'>
+                  Hindu YUVA aims to provide a platform to preserve, practice, promote, and protect
+                  Hindu Dharma by bringing together Hindu youth on college campuses across North America.
+                  Hindu YUVA creates opportunities for college communities (students, staff, and faculty members)
+                  to understand and practice Hindu Dharma or the Hindu way of life.
+                </h2>
+              </div>
+              <img
+                className='mb-[7%] max-w-[55%] max-h-[55%] book-img-blur book-img-style'
+                src='/HinduYUVAPerson.png'
+              />
+            </section>
           </section>
-          <section className='drop-shadow-2xl youtube-background'>
-          <div className='ml-[17%] mt-[-15%] mb-16'>
-              <iframe width="1070" height="600" src="https://www.youtube-nocookie.com/embed/SOLQo1HFOTY?si=wTMGNQBZla7NO8xx&amp;start=0"
-                title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"></iframe>
-            </div>
-          </section>
+          <section id="#youtube" ref={youtubeRef} className={`transition-opacity duration-1000 ${youtubeInView ? 'opacity-100' : 'opacity-0'}`}>
+            <section className='drop-shadow-2xl youtube-background mt-[-7%] pb-2 '>
+              <div className=''>
+                <iframe width="1070" height="600" src="https://www.youtube-nocookie.com/embed/SOLQo1HFOTY?si=wTMGNQBZla7NO8xx&amp;start=0"
+                  title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"></iframe>
+              </div>
+            </section>
+            </section>
           {/* <section
             id='team'
             className='min-h-screen flex flex-col items-center justify-center text-white bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
@@ -355,7 +381,9 @@ export default function Page() {
               </div>
             </div>
           </section> */}
-          <Footer />
+          <Element name='footer'>
+            <Footer />
+          </Element>
         </main>
       </>
 
