@@ -25,11 +25,23 @@
 .footer-logo img {
     max-height: 200px; /* Limit logo size */
     margin-bottom: 40px;
+    
 }
+.mobile-footer-logo {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .footer-links-container {
     flex: 1;
     display: flex;
+    justify-content: center; /* Center the links */
+}
+
+.mobile-footer-links-container {
+    
     justify-content: center; /* Center the links */
 }
 
@@ -38,6 +50,13 @@
     gap: 20px;
     bottom: 10;
 }
+
+.mobile-footer-links {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .footer-link {
     color: black;
@@ -61,6 +80,17 @@
     height: 24px;
     transition: transform 0.3s ease;
 }
+
+.mobile-footer-social-links {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .footer-social-link:hover img {
     transform: scale(1.2);
