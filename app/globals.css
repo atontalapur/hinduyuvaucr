@@ -4,7 +4,7 @@
 
 body {
   color: #000000;
-  background-color: #ffffff;
+  background-color: rgb(180, 110, 12)
 }
 
 @layer utilities {
