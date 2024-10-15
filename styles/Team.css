@@ -1,6 +1,6 @@
 .alt-bg{
-    width: 100vw;
-    height: 100vh;
+    width: 50vw;
+    height: 50vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,7 +26,7 @@
 }
 
 #team-page-title{
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .alt-subtitle{
@@ -37,7 +37,7 @@
     z-index: 4;
     opacity: 0;
     margin-bottom: 10vh;
-    line-height: 250%;
+    line-height: 254%;
 
     animation-name: fadeInUp-alt-subtitle;
     animation-duration: 0.8s;
@@ -67,13 +67,13 @@
     /*background-color: rgb(233, 170, 94);
     border: 1px solid rgb(233, 170, 94);*/
     background-color: rgba(255, 255, 255, 0.048);
-    border: 1px solid rgba(255, 255, 255, 0.068);
+    border: 2px solid rgba(255, 255, 255, 0.068);
     
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 70px 15px;
-    margin: 10px 13px;
+    padding: 80px 14px;
+    margin: 12px 41px;
     border-radius: 10px;
     opacity: 0;
     animation-name: fadeInUp;
@@ -96,8 +96,8 @@
 }
 
 .member-card-container img{
-    width: 9vw;
-    height: 9vw;
+    width: 8vw;
+    height: 8vw;
     border-radius: 0%;
     margin-top: -4vw;
 }
@@ -106,7 +106,7 @@
     /* text-transform: uppercase; */
     font-family: 'Inter', sans-serif;
     font-size: 1.5vw;
-    margin-bottom: 2;
+    
     font-weight: 400;
     /* color:rgb(42, 42, 42); */
     /* color: rgb(255, 247, 235); */
@@ -121,11 +121,12 @@
 }
 
 .member-role{
-    opacity: 75%;
-    font-size: 0.8vw;
+    opacity: 95%;
+    font-size: 1vw;
     margin-bottom: -85px;
-    font-weight: 100;
+    font-weight: 200;
     color: white;
+    padding-bottom: 10px;
     font-family: 'Inter', sans-serif;
 }
 

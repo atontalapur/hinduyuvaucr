@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { MdMenu, MdClose } from 'react-icons/md';
 import '../styles/MobileHeader.css'; // Import the CSS file
+import "../Pages/Team.tsx";
+import "../Pages/Home.tsx";
 
 const navItems = [
   { name: 'About', href: '#about' },
   { name: 'Our Work', href: '#events' },
-  { name: 'Our Team', href: '#team' },
+  { name: 'Our Team', href: '/Team' },
   { name: 'Get Involved', href: '#join' },
   { name: 'Shop', href: 'https://highlanderlink.ucr.edu/organization/hinduyuvaucr' },
 ];
