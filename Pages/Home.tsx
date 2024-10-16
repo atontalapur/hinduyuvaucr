@@ -23,7 +23,7 @@ import { useInView } from "react-intersection-observer";
 import { useRef } from "react";
 
 
-export default function Page() {
+export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
 
   const homeRef = useRef(null);
