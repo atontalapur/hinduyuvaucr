@@ -3,6 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
+import MyCalendar from "../components/EventsCalendar"
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/HomeBackground.css";
@@ -116,6 +117,9 @@ export default function Home() {
               </div>
             </section>
           </section>
+          <section>
+            <MyCalendar />
+          </section>
 
           <Element name='footer'>
             <MobileFooter />
@@ -181,6 +185,9 @@ export default function Home() {
                   referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </section>
+          </section>
+          <section id="#calendar">
+            <MyCalendar />
           </section>
           {/* <section
             id='team'
