@@ -58,10 +58,10 @@ export default function Home() {
   if (isMobile) {
     return (
       <>
-      <MobileHeader />
+        <MobileHeader />
         <div className='z-50'>
           <section id="#home" className='pt-[29%]'>
-            <div className='slider gradient  mt-[-42.5%] '>
+            <div className='slider gradient  mt-[-30.5%] '>
               <figure>
                 <img src="/1.png" alt="image1" />
                 <img src="/2.png" alt="image1" />
@@ -112,9 +112,7 @@ export default function Home() {
           <section id="#youtube" ref={youtubeRef} className={`transition-opacity duration-1000 ${youtubeInView ? 'opacity-100' : 'opacity-0'}`}>
             <section className='drop-shadow-2xl youtube-background mt-[-7%] pb-2 '>
               <div className=''>
-                <iframe width="370" height="250" src="https://www.youtube-nocookie.com/embed/SOLQo1HFOTY?si=wTMGNQBZla7NO8xx&amp;start=0"
-                  title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"></iframe>
+              <iframe width="400" height="315" src="https://www.youtube.com/embed/8sM0C2qs094?si=IpzFKQyyi8oFhxI5" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </section>
           </section>
@@ -156,10 +154,10 @@ export default function Home() {
           </section>
 
           <section id="#about" ref={aboutRef} className={`transition-opacity duration-1000 ${aboutInView ? 'opacity-100' : 'opacity-0'}`}>
-            <h2 className='about text-4xl font-bold justify-center mt-11 ml-[40%]'>Who Are We?</h2>
+            <h2 className=' text-4xl font-bold justify-center mt-11 ml-[40%]'>Who Are We?</h2>
             <section
               id='about'
-              className=' about bg-white min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>
+              className='  bg-white min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>
 
               <div className='items-center text-center mb-[9%]'>
                 <h2 className='text-2xl text-black text-center mr-9 pl-12 pr-12 pb-8'>
@@ -176,11 +174,11 @@ export default function Home() {
             </section>
           </section>
           <section id="#youtube" ref={youtubeRef} className={`transition-opacity duration-1000 ${youtubeInView ? 'opacity-100' : 'opacity-0'}`}>
-            <section className='drop-shadow-2xl youtube-background mt-[-7%] pb-2 '>
+            <section className='drop-shadow-2xl content-center mt-[-7%] pb-2 '>
               <div className=''>
-                <iframe width="1070" height="600" src="https://www.youtube-nocookie.com/embed/SOLQo1HFOTY?si=wTMGNQBZla7NO8xx&amp;start=0"
+                <iframe width="1500" height="715" src="https://www.youtube.com/embed/8sM0C2qs094?si=IpzFKQyyi8oFhxI5"
                   title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"></iframe>
+                  referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </section>
           </section>

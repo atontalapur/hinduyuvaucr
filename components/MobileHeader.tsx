@@ -6,6 +6,7 @@ import "../Pages/Team.tsx";
 import "../Pages/Home.tsx";
 
 const navItems = [
+  { name: 'Home', href: '/Home' },
   { name: 'About', href: '#about' },
   { name: 'Our Work', href: '#events' },
   { name: 'Our Team', href: '/Team' },
@@ -39,12 +40,14 @@ export default function MobileHeader() {
   };
 
   return (
-    <div className='mobile-header'>
-      <img
-        src='/HinduYUVA-UCR.jpg'
-        alt='The American Hindu Logo'
-        className='mt-1 ml-1 w-60 h-60 object-cover rounded-full overflow-hidden max-w-[50px] max-h-[50px] bg-red-0'
-      />
+    <div className='mobile-header ml-7 '>
+      <a href="/Home">
+        <img
+          src='/HinduYUVA-NBUCR.png'
+          alt='The American Hindu Logo'
+          className='w-90 h-90 object-cover rounded-full overflow-hidden max-w-[140px] max-h-[140px] '
+        />
+      </a>
       <div className='menu-icon-box' onClick={toggleMenu}>
         {menu ? (
           <MdClose className='menu-icon' size={40} />
