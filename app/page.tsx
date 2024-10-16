@@ -3,6 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
+import MyCalendar from "../components/EventsCalendar"
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/HomeBackground.css";
@@ -184,6 +185,11 @@ export default function Page() {
               </div>
             </section>
           </section>
+          <section id="#calendar">
+            <MyCalendar />
+          </section>
+
+          
           {/* <section
             id='team'
             className='min-h-screen flex flex-col items-center justify-center text-white bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
@@ -332,3 +338,4 @@ export default function Page() {
     );
   }
 }
+

@@ -1,0 +1,95 @@
+.MyCalendar input,
+.MyCalendar button {
+  font: inherit;
+}
+
+.MyCalendar header {
+  background-color: #323639;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: white;
+}
+
+.MyCalendar header h1 {
+  font-size: inherit;
+  margin: 0;
+}
+
+.MyCalendar_container {
+  background: white;
+  display: block;
+  /* flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  margin-left: 25%;
+  margin-right: auto; */
+}
+
+.MyCalendar_container > * {
+  margin: auto;
+  display: block;
+}
+
+.MyCalendar_container > * > * {
+  margin: auto;
+  display: block;
+  padding: 10px;
+}
+
+.MyCalendar_container > * > * > * {
+  background: red;
+  padding: 10px;
+}
+
+.MyCalendar_container > * > * > *:nth-child(1){
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.MyCalendar_container > * > * > *:nth-child(1) > * {
+  margin: 5px;
+  padding: 10px;
+  background: white;
+}
+
+.MyCalendar_container > * > * > *:nth-child(2){
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
+.MyCalendar_container_content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  height: 70%;
+  /* flex-basis: 420px; */
+  /* flex-direction: column; */
+  /* flex-grow: 100; */
+  /* padding-top: 1em; */
+}
+
+.MyCalendar_container_content > * > * > * > * > * > * > * {
+  background-color: yellow;
+  /* margin: 10px; */
+}
+
+.MyCalendar_container_content > * > * > * > * > * > * > * > *{
+  background-color: yellow;
+}
+
+.MyCalendar_container_content .react-calendar {
+  margin: 0 auto;
+}
+
+
+.MyCalendar_tile {
+  background: blue;
+}
