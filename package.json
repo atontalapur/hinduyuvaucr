@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@fontsource/clear-sans": "^5.0.11",
-    "next": "14.2.7",
+    "next": "^14.2.15",
     "react": "^18",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18",
