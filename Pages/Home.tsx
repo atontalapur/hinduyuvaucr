@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
-import MyCalendar from "../components/EventsCalendar"
+import "./Events"
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/HomeBackground.css";
@@ -113,13 +113,13 @@ export default function Home() {
           <section id="#youtube" ref={youtubeRef} className={`transition-opacity duration-1000 ${youtubeInView ? 'opacity-100' : 'opacity-0'}`}>
             <section className='drop-shadow-2xl youtube-background mt-[-7%] pb-2 '>
               <div className=''>
-              <iframe width="400" height="315" src="https://www.youtube.com/embed/8sM0C2qs094?si=IpzFKQyyi8oFhxI5" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/8sM0C2qs094?si=IpzFKQyyi8oFhxI5" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </section>
           </section>
-          <section>
+          {/* <section>
             <MyCalendar />
-          </section>
+          </section> */}
 
           <Element name='footer'>
             <MobileFooter />
@@ -186,9 +186,9 @@ export default function Home() {
               </div>
             </section>
           </section>
-          <section id="#calendar">
+          {/* <section id="#calendar">
             <MyCalendar />
-          </section>
+          </section> */}
           {/* <section
             id='team'
             className='min-h-screen flex flex-col items-center justify-center text-white bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>

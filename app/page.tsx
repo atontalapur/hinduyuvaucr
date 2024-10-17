@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
-import MyCalendar from "../components/EventsCalendar"
+import MyCalendar from "../Pages/Events"
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/HomeBackground.css";
@@ -59,7 +59,7 @@ export default function Page() {
   if (isMobile) {
     return (
       <>
-      <MobileHeader />
+        <MobileHeader />
         <div className='z-50'>
           <section id="#home" className='pt-[29%]'>
             <div className='slider gradient  mt-[-42.5%] '>
@@ -189,7 +189,7 @@ export default function Page() {
             <MyCalendar />
           </section>
 
-          
+
           {/* <section
             id='team'
             className='min-h-screen flex flex-col items-center justify-center text-white bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>

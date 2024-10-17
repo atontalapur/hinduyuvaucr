@@ -3,6 +3,9 @@ import Link from 'next/link';
 import '../styles/Footer.css'; // Import the CSS file
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import "../Pages/Team.tsx";
+import "../Pages/Home.tsx";
+import "../Pages/Events"
 
 const Footer = () => {
     return (
@@ -18,10 +21,10 @@ const Footer = () => {
             </div>
             <div className ='footer-links-container'>
                     <div className="text-black text-3xl footer-links mt-[-28%] mr-[-9%]">
-                        <Link href="#about" className="footer-link">About Us</Link>
-                        <Link href="/events" className="footer-link">Our Work</Link>
-                        <Link href="/team" className="footer-link">Our Team</Link>
-                        <Link href="/join" className="footer-link">Get Involved</Link>
+                        <Link href="/About" className="footer-link">About Us</Link>
+                        <Link href="/Events" className="footer-link">Our Work</Link>
+                        <Link href="/Team" className="footer-link">Our Team</Link>
+                        <Link href="/Join" className="footer-link">Get Involved</Link>
                     </div>
             </div>
             <div className="text-3xl footer-social-links mt-[-7%]" >

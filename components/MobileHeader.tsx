@@ -4,13 +4,14 @@ import { MdMenu, MdClose } from 'react-icons/md';
 import '../styles/MobileHeader.css'; // Import the CSS file
 import "../Pages/Team.tsx";
 import "../Pages/Home.tsx";
+import "../Pages/Events"
 
 const navItems = [
   { name: 'Home', href: '/Home' },
-  { name: 'About', href: '#about' },
-  { name: 'Our Work', href: '#events' },
+  { name: 'About', href: '/About' },
+  { name: 'Our Work', href: '/Events' },
   { name: 'Our Team', href: '/Team' },
-  { name: 'Get Involved', href: '#join' },
+  { name: 'Get Involved', href: '/Join' },
   { name: 'Shop', href: 'https://highlanderlink.ucr.edu/organization/hinduyuvaucr' },
 ];
 

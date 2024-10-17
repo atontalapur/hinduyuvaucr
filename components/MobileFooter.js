@@ -4,6 +4,7 @@ import '../styles/Footer.css'; // Import the CSS file
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
+
 const Footer = () => {
     return (
         <footer className="footer">

@@ -9,6 +9,7 @@ import { BsFacebook, BsInstagram, BsTwitterX, BsYoutube } from "react-icons/bs";
 import "../styles/Header.css";
 import "../Pages/Team.tsx";
 import "../Pages/Home.tsx";
+import "../Pages/Events"
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState("");
@@ -49,16 +50,16 @@ export default function Header() {
         <div className="z-50 header-logo">
           <a href="/Home">
             <Image src="/HinduYUVA-NBUCR.png" alt="Logo" width={200} height={80} />
-            </a>
+          </a>
         </div>
         <nav className="header-links z-50 text-3xl text-center mr-[18%]">
-          <Link href="/page" className={`header-link ${activeSection === "about" ? "active" : ""}`}>About Us</Link>
-          <Link href="#events" className={`header-link ${activeSection === "events" ? "active" : ""}`}>Our Work</Link>
+          <Link href="/About" className={`header-link ${activeSection === "about" ? "active" : ""}`}>About Us</Link>
+          <Link href="/Events" className={`header-link ${activeSection === "events" ? "active" : ""}`}>Our Work</Link>
           <Link href="/Team" className={`header-link ${activeSection === "team" ? "active" : ""}`}>Team</Link>
-          <Link href="#join" className={`header-link ${activeSection === "join" ? "active" : ""}`}>Get Involved</Link>
+          <Link href="/Join" className={`header-link ${activeSection === "join" ? "active" : ""}`}>Get Involved</Link>
           <Link href="https://store.hinduyuva.org/products/university-of-california-riverside" className={`header-link ${activeSection === "join" ? "active" : ""}`}>Shop</Link>
         </nav>
-        
+
       </div>
     </header>
   );
