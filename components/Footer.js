@@ -20,14 +20,14 @@ const Footer = () => {
                 
             </div>
             <div className ='footer-links-container'>
-                    <div className="text-black text-3xl footer-links mt-[-28%] mr-[-9%]">
+                    <div className=" ceter text-black text-3xl footer-links mt-[-28%] mr-[-15%]">
                         <Link href="/About" className="footer-link">About Us</Link>
                         <Link href="/Events" className="footer-link">Events</Link>
                         <Link href="/Team" className="footer-link">Our Team</Link>
                         <Link href="/Join" className="footer-link">Get Involved</Link>
                     </div>
             </div>
-            <div className="text-3xl footer-social-links mt-[-7%]" >
+            <div className="center text-3xl footer-social-links mt-[-7%]" >
                     <a
                         target='_blank'
                         href='mailto:ucrhinduyuva@gmail.com'>

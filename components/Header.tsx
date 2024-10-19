@@ -45,14 +45,14 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="header">
+    <header className=" header">
       <div className="header-container">
         <div className="z-50 header-logo">
           <a href="/Home">
             <Image src="/HinduYUVA-NBUCR.png" alt="Logo" width={200} height={80} />
           </a>
         </div>
-        <nav className="header-links z-50 text-3xl text-center mr-[18%]">
+        <nav className="center header-links z-50 text-3xl text-center mr-[18%]">
           <Link href="/About" className={`header-link ${activeSection === "about" ? "active" : ""}`}>About Us</Link>
           <Link href="/Events" className={`header-link ${activeSection === "events" ? "active" : ""}`}>Events</Link>
           <Link href="/Team" className={`header-link ${activeSection === "team" ? "active" : ""}`}>Team</Link>

@@ -12,6 +12,11 @@
  .scrolled{
     opacity: 0.6;
   }
+  .center {
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .header-container {
     display: flex;
