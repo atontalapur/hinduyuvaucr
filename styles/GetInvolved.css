@@ -1,0 +1,76 @@
+.join-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .join-us-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columns */
+    gap: 180px; /* Space between icons */
+  }
+  
+  .join-us-content .icon {
+    width: 120px; /* Adjust the size of the icons */
+    height: 120px;
+    background-color: #b76262; /* Background color for the icons */
+    border-radius: 50%; /* Make the icons circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .join-us-content .icon:hover {
+    transform: scale(1.1); /* Scale up the icon on hover */
+  }
+
+  @property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+  :root {
+    --clr-1: #ff8400;
+    --clr-2: #d07f29;
+    --clr-3: #d38841;
+    --clr-4: #8f5c2d;
+    --clr-5: #943b04;
+  }
+  
+  /* body {
+    background: var(--clr-2);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+  } */
+  
+  .card {
+    height: 60vh;
+    aspect-ratio: 1 / 1.5;
+    background: var(--clr-4);
+    border-radius: 0.5rem;
+  
+    position: relative;
+  }
+  
+  .card::before{
+    content: "";
+    position: absolute;
+    inset: -0.5rem;
+    z-index: -1;
+    background: conic-gradient(
+      from var(--gradient-angle),
+      var(--clr-3),
+      var(--clr-4),
+      var(--clr-5),
+      var(--clr-4),
+      var(--clr-3)
+    );
+    border-radius: inherit;
+    
+  }
+

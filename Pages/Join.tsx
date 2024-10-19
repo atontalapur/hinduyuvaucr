@@ -7,9 +7,11 @@ import "./Events"
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/HomeBackground.css";
+import "../styles/GetInvolved.css";
 // import Navbar from "../components/Navbar";
 import "../styles/Book.css";
 import "../styles/Scroll.css";
+import "../styles/GetInvolved.css";
 import "@fontsource/clear-sans";
 import { BsFacebook, BsTwitterX, BsWhatsapp, BsYoutube } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
@@ -25,6 +27,7 @@ import { useRef } from "react";
 import { FaDiscord, FaYoutube } from "react-icons/fa6";
 import { GoOrganization } from "react-icons/go";
 import { SiGoogleforms } from "react-icons/si";
+
 
 export default function Home() {
     const [isMobile, setIsMobile] = useState(false);
@@ -72,46 +75,67 @@ export default function Home() {
                 <p className='text-4xl sm:text-2xl lg:text-6xl text-center mt-[13%]'>
                     Get Involved
                 </p>
-                <section>
-                    <div className="center text-3xl footer-social-links " >
+                <section className='join-us-container'>
+                    <div className=" join-us-content text-7xl " >
                         <a
+                            className='card icon'
                             target='_blank'
                             href='mailto:ucrhinduyuva@gmail.com'>
                             <MdEmail />
                         </a>
-                        <a
+                        {/* <a
+                            className='icon'
                             target='_blank'
                             href='https://instagram.com/ucrhinduyuva'>
                             <FaInstagram />
-                        </a>
+                        </a> */}
                         <a
+                            className='card icon'
                             target='_blank'
                             href='https://discord.gg/hXfKRxaa4f'>
                             <FaDiscord />
                         </a>
                         <a
+                            className='card icon'
                             target='_blank'
                             href='https://discord.gg/hXfKRxaa4f'>
                             <BsWhatsapp />
                         </a>
                         <a
+                            className='card icon'
                             target='_blank'
                             href='https://www.youtube.com/@HinduYUVAUSA'>
-                            <FaYoutube/>
+                            <FaYoutube />
                         </a>
                         <a
+                            className='card icon'
                             target='_blank'
                             href='https://highlanderlink.ucr.edu/organization/hinduyuvaucr'>
-                            <GoOrganization/>
+                            <GoOrganization />
                         </a>
                         <a
+                            className='card icon'
                             target='_blank'
                             href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
-                            <SiGoogleforms  />
+                            <SiGoogleforms />
                         </a>
+
                     </div>
-                </section>
+                    </section>
+                    <section className='center'>
+                        <div
+                            className='mt-16 mb-(-4)'
+                            style={{ display: "flex", justifyContent: "center" }}>
+                            <InstagramEmbed
+                                url='https://www.instagram.com/ucrhinduyuva/'
+                                width={800}
+                            />
+                        </div>
+                    </section>
+                
+                <Footer />
             </section>
+
 
         );
     }
