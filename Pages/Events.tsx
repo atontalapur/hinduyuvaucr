@@ -28,6 +28,7 @@ class Event {
 
 // Add events here
 const myEvents = [
+  
   new Event("October 18, 2024 18:00", "Learn Sanskrit", "Description"),
   new Event("October 15, 2024 16:30", "Hindu Heritage Month - Being an American Hindu", "Description"),
   new Event("October 23, 2024 16:00", "Diwali Diya Decoration", "Description")

@@ -9,7 +9,8 @@ import "../Pages/Events"
 const navItems = [
   { name: 'Home', href: '/Home' },
   { name: 'About', href: '/About' },
-  { name: 'Our Work', href: '/Events' },
+  { name: 'Events', href: '/Events' },
+  { name: 'HY In Action', href: '/Work' },
   { name: 'Our Team', href: '/Team' },
   { name: 'Get Involved', href: '/Join' },
   { name: 'Shop', href: 'https://highlanderlink.ucr.edu/organization/hinduyuvaucr' },
