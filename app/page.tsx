@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
-import MyCalendar from "../Pages/Events"
+import "../Pages/Events"
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/HomeBackground.css";
@@ -62,7 +62,7 @@ export default function Page() {
         <MobileHeader />
         <div className='z-50'>
           <section id="#home" className='pt-[29%]'>
-            <div className='slider gradient  mt-[-42.5%] '>
+            <div className='slider gradient  mt-[-30.5%] '>
               <figure>
                 <img src="/1.png" alt="image1" />
                 <img src="/2.png" alt="image1" />
@@ -98,7 +98,7 @@ export default function Page() {
               <h2 className='text-3xl font-bold justify-center mt-[-10%]'>Who Are We?</h2>
               <img
                 className='max-w-[100%] max-h-[55%] book-img-blur book-img-style'
-                src='/HinduYUVAPerson.png'
+                src='/HY.jpg'
               />
               <div className='mx-auto pt-[30%]'>
                 <p className='text-xl font-semibold text-center mb-10'>
@@ -112,10 +112,8 @@ export default function Page() {
           </div>
           <section id="#youtube" ref={youtubeRef} className={`transition-opacity duration-1000 ${youtubeInView ? 'opacity-100' : 'opacity-0'}`}>
             <section className='drop-shadow-2xl youtube-background mt-[-7%] pb-2 '>
-              <div className=''>
-                <iframe width="370" height="250" src="https://www.youtube-nocookie.com/embed/SOLQo1HFOTY?si=wTMGNQBZla7NO8xx&amp;start=0"
-                  title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"></iframe>
+              <div className='center'>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/8sM0C2qs094?si=IpzFKQyyi8oFhxI5" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </section>
           </section>
@@ -157,10 +155,10 @@ export default function Page() {
           </section>
 
           <section id="#about" ref={aboutRef} className={`transition-opacity duration-1000 ${aboutInView ? 'opacity-100' : 'opacity-0'}`}>
-            <h2 className='about text-4xl font-bold justify-center mt-11 ml-[40%]'>Who Are We?</h2>
+            <h2 className=' text-4xl font-bold justify-center mt-11 ml-[40%]'>Who We Are?</h2>
             <section
               id='about'
-              className=' about bg-white min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>
+              className=' min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>
 
               <div className='items-center text-center mb-[9%]'>
                 <h2 className='text-2xl text-black text-center mr-9 pl-12 pr-12 pb-8'>
@@ -172,24 +170,22 @@ export default function Page() {
               </div>
               <img
                 className='mb-[7%] max-w-[55%] max-h-[55%] book-img-blur book-img-style'
-                src='/HinduYUVAPerson.png'
+                src='/HY.jpg'
               />
             </section>
           </section>
           <section id="#youtube" ref={youtubeRef} className={`transition-opacity duration-1000 ${youtubeInView ? 'opacity-100' : 'opacity-0'}`}>
-            <section className='drop-shadow-2xl youtube-background mt-[-7%] pb-2 '>
-              <div className=''>
-                <iframe width="1070" height="600" src="https://www.youtube-nocookie.com/embed/SOLQo1HFOTY?si=wTMGNQBZla7NO8xx&amp;start=0"
+            <section className='drop-shadow-2xl mt-[-7%] pb-2 '>
+              <div className='center'>
+                <iframe width="1300" height="715" src="https://www.youtube.com/embed/8sM0C2qs094?si=IpzFKQyyi8oFhxI5"
                   title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"></iframe>
+                  referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </section>
           </section>
-          <section id="#calendar">
+          {/* <section id="#calendar">
             <MyCalendar />
-          </section>
-
-
+          </section> */}
           {/* <section
             id='team'
             className='min-h-screen flex flex-col items-center justify-center text-white bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
@@ -338,4 +334,3 @@ export default function Page() {
     );
   }
 }
-

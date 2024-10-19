@@ -98,7 +98,7 @@ export default function Home() {
               <h2 className='text-3xl font-bold justify-center mt-[-10%]'>Who Are We?</h2>
               <img
                 className='max-w-[100%] max-h-[55%] book-img-blur book-img-style'
-                src='/HinduYUVAPerson.png'
+                src='/HY.jpg'
               />
               <div className='mx-auto pt-[30%]'>
                 <p className='text-xl font-semibold text-center mb-10'>
@@ -112,14 +112,11 @@ export default function Home() {
           </div>
           <section id="#youtube" ref={youtubeRef} className={`transition-opacity duration-1000 ${youtubeInView ? 'opacity-100' : 'opacity-0'}`}>
             <section className='drop-shadow-2xl youtube-background mt-[-7%] pb-2 '>
-              <div className=''>
+              <div className='center'>
                 <iframe width="400" height="315" src="https://www.youtube.com/embed/8sM0C2qs094?si=IpzFKQyyi8oFhxI5" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>
             </section>
           </section>
-          {/* <section>
-            <MyCalendar />
-          </section> */}
 
           <Element name='footer'>
             <MobileFooter />
@@ -158,10 +155,10 @@ export default function Home() {
           </section>
 
           <section id="#about" ref={aboutRef} className={`transition-opacity duration-1000 ${aboutInView ? 'opacity-100' : 'opacity-0'}`}>
-            <h2 className=' text-4xl font-bold justify-center mt-11 ml-[40%]'>Who Are We?</h2>
+            <h2 className=' text-4xl font-bold justify-center mt-11 ml-[40%]'>Who We Are?</h2>
             <section
               id='about'
-              className='  bg-white min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>
+              className=' min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>
 
               <div className='items-center text-center mb-[9%]'>
                 <h2 className='text-2xl text-black text-center mr-9 pl-12 pr-12 pb-8'>
@@ -173,14 +170,14 @@ export default function Home() {
               </div>
               <img
                 className='mb-[7%] max-w-[55%] max-h-[55%] book-img-blur book-img-style'
-                src='/HinduYUVAPerson.png'
+                src='/HY.jpg'
               />
             </section>
           </section>
           <section id="#youtube" ref={youtubeRef} className={`transition-opacity duration-1000 ${youtubeInView ? 'opacity-100' : 'opacity-0'}`}>
-            <section className='drop-shadow-2xl content-center mt-[-7%] pb-2 '>
-              <div className=''>
-                <iframe width="1500" height="715" src="https://www.youtube.com/embed/8sM0C2qs094?si=IpzFKQyyi8oFhxI5"
+            <section className='drop-shadow-2xl mt-[-7%] pb-2 '>
+              <div className='center'>
+                <iframe width="1300" height="715" src="https://www.youtube.com/embed/8sM0C2qs094?si=IpzFKQyyi8oFhxI5"
                   title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
               </div>

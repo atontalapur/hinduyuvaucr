@@ -54,7 +54,7 @@ export default function Header() {
         </div>
         <nav className="header-links z-50 text-3xl text-center mr-[18%]">
           <Link href="/About" className={`header-link ${activeSection === "about" ? "active" : ""}`}>About Us</Link>
-          <Link href="/Events" className={`header-link ${activeSection === "events" ? "active" : ""}`}>Our Work</Link>
+          <Link href="/Events" className={`header-link ${activeSection === "events" ? "active" : ""}`}>Events</Link>
           <Link href="/Team" className={`header-link ${activeSection === "team" ? "active" : ""}`}>Team</Link>
           <Link href="/Join" className={`header-link ${activeSection === "join" ? "active" : ""}`}>Get Involved</Link>
           <Link href="https://store.hinduyuva.org/products/university-of-california-riverside" className={`header-link ${activeSection === "join" ? "active" : ""}`}>Shop</Link>

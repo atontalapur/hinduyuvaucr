@@ -22,7 +22,7 @@ const Footer = () => {
             <div className ='footer-links-container'>
                     <div className="text-black text-3xl footer-links mt-[-28%] mr-[-9%]">
                         <Link href="/About" className="footer-link">About Us</Link>
-                        <Link href="/Events" className="footer-link">Our Work</Link>
+                        <Link href="/Events" className="footer-link">Events</Link>
                         <Link href="/Team" className="footer-link">Our Team</Link>
                         <Link href="/Join" className="footer-link">Get Involved</Link>
                     </div>

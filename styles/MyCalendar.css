@@ -18,7 +18,6 @@
 
 /* Main container for calendar section */
 .MyCalendar_container {
-  background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
