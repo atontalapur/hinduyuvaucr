@@ -10,6 +10,7 @@ import { useInView } from "react-intersection-observer";
 import { useRef } from "react";
 import "../styles/Team.css";
 import "../app/globals.css";
+import "../styles/Book.css";
 
 
 
@@ -51,9 +52,12 @@ export default function Team() {
                 <MobileHeader />
                 <section
                     id='team'
-                    className='min-h-screen flex flex-col items-center justify-center text-white'>
-                    <p className='text-7xl sm:text-2xl lg:text-6xl text-center mt-[13%]'>
+                    className='min-h-screen flex flex-col items-center justify-center '>
+                    <p className='font-bold lg:text-6xl mt-[13%] ml-4'>
                         Our Team
+                    </p>
+                    <p className='text-3xl mt-1 ml-4'>
+                        Meet the team that makes Hindu YUVA at UC Riverside
                     </p>
                     <p className='text-4xl sm:text-2xl lg:text-4xl text-center mt-[5%]'>
                         Excecutive Committee
@@ -152,11 +156,14 @@ export default function Team() {
                 <Header />
                 <section
                     id='team'
-                    className='min-h-screen flex flex-col items-center justify-center text-white'>
-                    <p className='text-4xl sm:text-2xl lg:text-6xl text-center mt-[13%]'>
+                    className='min-h-screen flex flex-col justify-center'>
+                     <p className='standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
                         Our Team
                     </p>
-                    <p className='text-2xl sm:text-2xl lg:text-4xl text-center mt-[5%]'>
+                    <p className='standard-animation text-3xl mt-1 ml-4'>
+                        Meet the team that makes Hindu YUVA at UC Riverside
+                    </p>
+                    <p className='standard-animation text-2xl sm:text-2xl lg:text-4xl text-center mt-[5%]'>
                         Excecutive Committee
                     </p>
                     <div className='team-page-container'>
@@ -194,7 +201,7 @@ export default function Team() {
 
                         />
                     </div>
-                    <p className='text-2xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
+                    <p className='standard-animation text-2xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
                         Events Committee
                     </p>
                     <div className='team-page-container'>
@@ -218,7 +225,7 @@ export default function Team() {
                         />
 
                     </div>
-                    <p className='text-2xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
+                    <p className='standard-animation text-2xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
                         Social Media and Public Relations Committee
                     </p>
                     <div className='team-page-container'>

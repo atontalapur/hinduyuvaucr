@@ -79,55 +79,80 @@ export default function Home() {
                 <Header />
                 <section>
                     <section className='ml-7'>
-                        <p className='text-4xl sm:text-2xl lg:text-6xl mt-[13%]'>
-                            Philosophy
+                        <p className='standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%]'>
+                            Philosophy of
                         </p>
-                        <p className='lg:text-6xl font-bold'>
+                        <p className='standard-animation lg:text-6xl font-bold'>
                             Hindu YUVA
                         </p>
-                        <section className='text-2xl pt-5 '>
+                        <section className='standard-animation text-2xl pt-5 '>
                             <p >
                                 Hindu YUVA is a student organization dedicated to uniting
                             </p>
-                            <p >
+                            <p className='standard-animation' >
                                 Hindu youth on college campuses.
                                 We provide opportunities
                             </p>
-                            <p>
+                            <p className='standard-animation'>
                                 for students, staff, and
                                 faculty members to understand
                             </p>
-                            <p>
+                            <p className='standard-animation'>
                                 and practice Hindu Dharma or the Hindu way of life.
                             </p>
                         </section>
 
-                        <section className='flex justify-between'>
-                            <div className='h-auto w-3/12 philosphy-card-container'>
-                                <p className='text-red-500 member-name '>
+                        <section className='standard-animation flex justify-between'>
+                            <div className=' w-auto h-1/4 philosphy-card-container'>
+                                <p className='philophy-title'>
                                     Protect
 
                                 </p>
+                                <p className='center philophy-info'>
+
+                                    Hindu YUVA raises awareness about Hinduphobia,
+                                    advocates for Hindu rights globally, and organizes events
+                                    to dispel misconceptions and promote a safer environment for Hindu Americans.
+                                </p>
                             </div>
-                            <div className='w-3/12 h-1/4 philosphy-card-container'>
-                                <p className='member-name'>
+                            <div className='w-fixed h-1/4 philosphy-card-container'>
+                                <p className='philophy-title'>
                                     Preserve
                                 </p>
-                            </div>
-                            <div className='w-3/12 h-1/4 philosphy-card-container'>
-                                <p className='member-name'>
-                                    Prosper
+                                <p className='center philophy-info'>
+
+                                    Hindu YUVA works to preserve the cultural and spiritual
+                                    heritage of Hindu Dharma for future generations. We organize events
+                                    that showcase Hindu festivals, arts, and traditions,
+                                    while also promoting its philosophical teachings through seminars
+                                    and workshops on campus.
                                 </p>
                             </div>
-                            <div className='w-3/12 h-1/4 philosphy-card-container'>
-                                <p className='member-name'>
+                            <div className='w-fixed h-1/4 philosphy-card-container'>
+                                <p className='philophy-title'>
+                                    Practice
+                                </p>
+                                <p className='center philophy-info'>
+                                    Hindu YUVA offers a space for Hindu students to explore their identity, deepen their understanding
+                                    of Hindu Dharma, and build a supportive community. Through regular events, we inspire members to practice Hindu values and develop a strong foundation for life.
+                                </p>
+                            </div>
+                            <div className='w-fixed h-1/4 philosphy-card-container'>
+                                <p className='philophy-title'>
                                     Promote
                                 </p>
+                                <p className='center philophy-info'>
+                                    Hindu YUVA shares dharmic values like respect for nature, and
+                                    Sewa, with the broader campus while fostering interfaith dialogue. This creates an inclusive environment
+                                    for all students.
+                                </p>
+
                             </div>
+
 
                         </section>
                     </section>
-                    <section className='pb-16'>
+                    <section className='standard-animation pb-16'>
                         <p className='text-4xl sm:text-2xl lg:text-6xl mt-[4%] ml-4'>
                             Hindu YUVA's Reach to University Campuses
                         </p>

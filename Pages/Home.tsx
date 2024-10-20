@@ -95,7 +95,7 @@ export default function Home() {
                   {/* Decreased image size */}
                 </div>
               </div>
-              <h2 className='text-3xl font-bold justify-center mt-[-10%]'>Who Are We?</h2>
+              <h2 className='text-3xl font-bold justify-center mt-[-10%]'>Who Are We</h2>
               <img
                 className='max-w-[100%] max-h-[55%] book-img-blur book-img-style'
                 src='/HY.jpg'
@@ -155,7 +155,7 @@ export default function Home() {
           </section>
 
           <section id="#about" ref={aboutRef} className={`transition-opacity duration-1000 ${aboutInView ? 'opacity-100' : 'opacity-0'}`}>
-            <h2 className=' text-4xl font-bold justify-center mt-11 ml-[40%]'>Who We Are?</h2>
+            <h2 className=' text-4xl font-bold justify-center mt-11 ml-[40%]'>Who We Are</h2>
             <section
               id='about'
               className=' min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>

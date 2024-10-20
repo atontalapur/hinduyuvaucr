@@ -67,26 +67,24 @@ export default function Home() {
             <section>
                 <MobileHeader />
 
-                <p className='text-4xl sm:text-2xl lg:text-6xl text-center mt-[13%]'>
+                <p className='standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
                     Get Involved
                 </p>
-                <p className='text-xl font-semibold text-center'>
+                <p className='standard-animation text-3xl mt-1 ml-4'>
                     Join us to spread awareness about Hindu Dharma on campus,   meet new people,
-                    
                 </p>
-                <p className='text-xl font-semibold text-center pt-1'>
-                 and develop our own leadership and organizational skills.
-                    
+                <p className='standard-animation text-3xl mt-1 ml-4'>
+                    and develop our own leadership and organizational skills.
                 </p>
-                
-                <section className='join-us-container'>
+
+                <section className='standard-animation join-us-container'>
                     <div className=" mobile-join-us-content text-4xl " >
                         <a
                             className='icon'
                             target='_blank'
                             href='mailto:ucrhinduyuva@gmail.com'>
                             <MdEmail />
-                            
+
                         </a>
                         <a
                             className='card icon'
@@ -117,24 +115,24 @@ export default function Home() {
                             target='_blank'
                             href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
                             <MdUpdate />
-                            
+
                         </a>
-                        
+
 
                     </div>
-                    
-                    </section>
-                    <section className='center'>
-                        <div
-                            className='mt-16 mb-(-4)'
-                            style={{ display: "flex", justifyContent: "center" }}>
-                            <InstagramEmbed
-                                url='https://www.instagram.com/ucrhinduyuva/'
-                                width={800}
-                            />
-                        </div>
-                    </section>
-                
+
+                </section>
+                <section className='center'>
+                    <div
+                        className='mt-16 mb-(-4)'
+                        style={{ display: "flex", justifyContent: "center" }}>
+                        <InstagramEmbed
+                            url='https://www.instagram.com/ucrhinduyuva/'
+                            width={800}
+                        />
+                    </div>
+                </section>
+
                 <MobileFooter />
             </section>
 
@@ -147,28 +145,26 @@ export default function Home() {
             <section>
                 <Header />
 
-                <p className='text-4xl sm:text-2xl lg:text-6xl text-center mt-[13%]'>
+                <p className='standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
                     Get Involved
                 </p>
-                <p className='text-xl font-semibold text-center'>
-                    Join us to spread awareness about Hindu Dharma on campus,   meet new people,
-                    
+                <p className='standard-animation text-3xl mt-1 ml-4'>
+                    Join us to spread awareness about Hindu Dharma on campus, meet
                 </p>
-                <p className='text-xl font-semibold text-center pt-1'>
-                 and develop our own leadership and organizational skills.
-                    
+                <p className='standard-animation text-3xl mt-1 ml-4'>
+                    new people, and develop our own leadership and organizational skills.
                 </p>
-                
-                <section className='join-us-container'>
+
+                <section className='standard-animation join-us-container'>
                     <div className=" join-us-content text-7xl " >
                         <a
                             className='icon'
                             target='_blank'
                             href='mailto:ucrhinduyuva@gmail.com'>
                             <MdEmail />
-                            
+
                         </a>
-                        
+
                         {/* <a
                             className='icon'
                             target='_blank'
@@ -204,24 +200,24 @@ export default function Home() {
                             target='_blank'
                             href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
                             <MdUpdate />
-                            
+
                         </a>
-                        
+
 
                     </div>
-                    
-                    </section>
-                    <section className='center'>
-                        <div
-                            className='mt-16 mb-(-4)'
-                            style={{ display: "flex", justifyContent: "center" }}>
-                            <InstagramEmbed
-                                url='https://www.instagram.com/ucrhinduyuva/'
-                                width={800}
-                            />
-                        </div>
-                    </section>
-                
+
+                </section>
+                <section className='standard-animation center'>
+                    <div
+                        className='mt-16 mb-(-4)'
+                        style={{ display: "flex", justifyContent: "center" }}>
+                        <InstagramEmbed
+                            url='https://www.instagram.com/ucrhinduyuva/'
+                            width={800}
+                        />
+                    </div>
+                </section>
+
                 <Footer />
             </section>
 

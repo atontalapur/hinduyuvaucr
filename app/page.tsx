@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
-import "../Pages/Events"
+import "./Events"
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/HomeBackground.css";
@@ -24,7 +24,7 @@ import { useInView } from "react-intersection-observer";
 import { useRef } from "react";
 
 
-export default function Page() {
+export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
 
   const homeRef = useRef(null);
@@ -95,7 +95,7 @@ export default function Page() {
                   {/* Decreased image size */}
                 </div>
               </div>
-              <h2 className='text-3xl font-bold justify-center mt-[-10%]'>Who Are We?</h2>
+              <h2 className='text-3xl font-bold justify-center mt-[-10%]'>Who Are We</h2>
               <img
                 className='max-w-[100%] max-h-[55%] book-img-blur book-img-style'
                 src='/HY.jpg'
@@ -155,7 +155,7 @@ export default function Page() {
           </section>
 
           <section id="#about" ref={aboutRef} className={`transition-opacity duration-1000 ${aboutInView ? 'opacity-100' : 'opacity-0'}`}>
-            <h2 className=' text-4xl font-bold justify-center mt-11 ml-[40%]'>Who We Are?</h2>
+            <h2 className=' text-4xl font-bold justify-center mt-11 ml-[40%]'>Who We Are</h2>
             <section
               id='about'
               className=' min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>

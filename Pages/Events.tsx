@@ -28,7 +28,7 @@ class Event {
 
 // Add events here
 const myEvents = [
-  
+
   new Event("October 18, 2024 18:00", "Learn Sanskrit", "Description"),
   new Event("October 15, 2024 16:30", "Hindu Heritage Month - Being an American Hindu", "Description"),
   new Event("October 23, 2024 16:00", "Diwali Diya Decoration", "Description")
@@ -102,9 +102,12 @@ export default function EventsCalendar() {
     return (
       <div>
         <MobileHeader />
-        <p className='text-4xl sm:text-2xl lg:text-6xl text-center mt-[13%]'>
-          Events
-        </p>
+        <p className='font-bold lg:text-6xl mt-[13%] ml-4'>
+            Events
+          </p>
+          <p className='standard-animation text-3xl mt-1 ml-4'>
+            Discover the Events in Hindu YUVA
+          </p>
         <div className="MyCalendar">
           <div className="MyCalendar_container">
             <main className="MyCalendar_container_content">
@@ -121,21 +124,26 @@ export default function EventsCalendar() {
   } else {
     return (
       <div>
-      <Header />
-      <p className='text-4xl sm:text-2xl lg:text-6xl text-center mt-[13%]'>
-        Events
-      </p>
-      <div className="MyCalendar">
-        <div className="MyCalendar_container">
-          <main className="MyCalendar_container_content">
-            <Calendar onChange={onChange} value={value} tileClassName={"MyCalendar_tile"} tileContent={tileContent} />
-          </main>
+        <Header />
+        <section>
+          <p className='standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
+            Events
+          </p>
+          <p className='standard-animation text-3xl mt-1 ml-4'>
+            Discover the Events in Hindu YUVA
+          </p>
+        </section>
+        <div className="standard-animation MyCalendar">
+          <div className="MyCalendar_container">
+            <main className="MyCalendar_container_content">
+              <Calendar onChange={onChange} value={value} tileClassName={"MyCalendar_tile"} tileContent={tileContent} />
+            </main>
+          </div>
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
-      <div>
-        <Footer />
-      </div>
-    </div>
     );
   }
 }

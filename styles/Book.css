@@ -149,3 +149,9 @@ html, body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.standard-animation{
+    animation-name: fadeInUp;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
