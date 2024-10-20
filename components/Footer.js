@@ -23,7 +23,7 @@ const Footer = () => {
                     <div className=" ceter text-black text-3xl footer-links mt-[-28%] mr-[-15%]">
                         <Link href="/About" className="footer-link">About Us</Link>
                     <Link href="/Events" className="footer-link">Events</Link>
-                    <Link href="/Work" className="footer-link">HY In Action</Link>
+                    <Link href="/Explore" className="footer-link">HY In Action</Link>
                         <Link href="/Team" className="footer-link">Our Team</Link>
                         <Link href="/Join" className="footer-link">Get Involved</Link>
                     </div>
