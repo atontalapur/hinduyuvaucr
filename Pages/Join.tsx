@@ -25,9 +25,10 @@ import { Homemade_Apple } from "next/font/google";
 import { useInView } from "react-intersection-observer";
 import { useRef } from "react";
 import { FaDiscord, FaYoutube } from "react-icons/fa6";
-import { GoOrganization } from "react-icons/go";
-import { SiGoogleforms } from "react-icons/si";
+import { GoBroadcast, GoOrganization } from "react-icons/go";
+import { SiGoogleforms, SiMailchimp } from "react-icons/si";
 import { GiJoin } from "react-icons/gi";
+import { BiBroadcast } from "react-icons/bi";
 
 
 export default function Home() {
@@ -199,7 +200,7 @@ export default function Home() {
                             className='card icon'
                             target='_blank'
                             href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
-                            <MdUpdate />
+                            <SiMailchimp />
 
                         </a>
 

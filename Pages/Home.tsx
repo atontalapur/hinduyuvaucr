@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
-import "./Events"
+import "../Pages/Events"
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/HomeBackground.css";
@@ -100,6 +100,14 @@ export default function Home() {
                 className='max-w-[100%] max-h-[55%] book-img-blur book-img-style'
                 src='/HY.jpg'
               />
+               <a
+                target='_blank'
+                className='z-auto'
+                href='/Explore'>
+                <button className=' buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
+                  More About Us
+                </button>
+              </a>
               <div className='mx-auto pt-[30%]'>
                 <p className='text-xl font-semibold text-center mb-10'>
                   Hindu YUVA aims to provide a platform to preserve, practice, promote, and protect
@@ -107,7 +115,9 @@ export default function Home() {
                   Hindu YUVA creates opportunities for college communities (students, staff, and faculty members)
                   to understand and practice Hindu Dharma or the Hindu way of life.
                 </p>
+               
               </div>
+              
             </section>
           </div>
           <section id="#youtube" ref={youtubeRef} className={`transition-opacity duration-1000 ${youtubeInView ? 'opacity-100' : 'opacity-0'}`}>
@@ -167,7 +177,16 @@ export default function Home() {
                   Hindu YUVA creates opportunities for college communities (students, staff, and faculty members)
                   to understand and practice Hindu Dharma or the Hindu way of life.
                 </h2>
+                <a
+                target='_blank'
+                className='z-auto'
+                href='/Explore'>
+                <button className=' buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
+                  More About Us
+                </button>
+              </a>
               </div>
+             
               <img
                 className='mb-[7%] max-w-[55%] max-h-[55%] book-img-blur book-img-style'
                 src='/HY.jpg'

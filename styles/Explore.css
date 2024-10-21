@@ -13,9 +13,13 @@
     animation-fill-mode: forwards;
     transition: 0.6s;
 }
+
 .philosphy-card-container:hover{
   padding: 100px 90px;
+  opacity: 0.8;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255,255,255,.6)), url("../public/practice.png");
 }
+
 
 .philophy-title{
   /* text-transform: uppercase; */
@@ -53,3 +57,12 @@
 margin-left: auto;
 margin-right: auto;
 }
+
+.line{
+  width: 99%;
+  height: 47px;
+  
+  border-bottom: 3px solid black;
+  position: absolute;
+  
+  }

@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
-import "./Events"
+import "../Pages/Events"
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/HomeBackground.css";
