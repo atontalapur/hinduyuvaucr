@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Member from "../components/Member.js";
-import Header from "../components/Header";
+import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.js";
-import MobileHeader from "../components/MobileHeader";
-import MobileFooter from "../components/MobileFooter";
+import MobileHeader from "../components/MobileHeader.tsx";
+import MobileFooter from "../components/MobileFooter.js";
 import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { useRef } from "react";
