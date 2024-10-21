@@ -1,8 +1,11 @@
 
+.banner-container {
+    position: relative;
+}
 
 .banner-text {
     position: relative;
-    top: 20%; /* Adjust this value to position the text vertically */
+    top: 0%; /* Adjust this value to position the text vertically */
     right: 0%; /* Adjust this value to position the text horizontally */
     padding: 20px;
     color: rgb(250, 250, 250);

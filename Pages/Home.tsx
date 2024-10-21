@@ -140,28 +140,29 @@ export default function Home() {
         <Header />
         <main >
           <section id="#home">
-            <div className='banner-text'>
-              <h1 className='mt-[25%]'> Hindu YUVA at </h1>
-              <h1>The University of California, Riverside</h1>
-              <h2 className='mt-9'>A platform to preserve, practice, promote, and protect Dharma at UCR.</h2>
-              <a
-                target='_blank'
-                className=''
-                href='https://highlanderlink.ucr.edu/organization/hinduyuvaucr'>
-                <button className=' mt-[8%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
-                  Join Now
-                </button>
-              </a>
-            </div>
-            <div className='slider gradient  mt-[-42.5%] '>
-              <figure>
-                <img src="/1.png" alt="image1" />
-                <img src="/2.png" alt="image1" />
-                <img src="/3.png" alt="image1" />
-              </figure>
+            <div className='banner-container'>
+              <div className='banner-text'>
+                <h1 className='mt-[25%]'> Hindu YUVA at </h1>
+                <h1>The University of California, Riverside</h1>
+                <h2 className='mt-9'>A platform to preserve, practice, promote, and protect Dharma at UCR.</h2>
+                <a
+                  target='_blank'
+                  className=''
+                  href='https://highlanderlink.ucr.edu/organization/hinduyuvaucr'>
+                  <button className=' mt-[8%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
+                    Join Now
+                  </button>
+                </a>
+              </div>
+              <div className='slider gradient  mt-[-42vw] '>
+                <figure>
+                  <img src="/1.png" alt="image1" />
+                  <img src="/2.png" alt="image1" />
+                  <img src="/3.png" alt="image1" />
+                </figure>
 
+              </div>
             </div>
-
           </section>
 
           <section id="#about" ref={aboutRef} className={`transition-opacity duration-1000 ${aboutInView ? 'opacity-100' : 'opacity-0'}`}>
@@ -202,9 +203,7 @@ export default function Home() {
               </div>
             </section>
           </section>
-          {/* <section id="#calendar">
-            <MyCalendar />
-          </section> */}
+          
           {/* <section
             id='team'
             className='min-h-screen flex flex-col items-center justify-center text-white bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>

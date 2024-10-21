@@ -30,13 +30,25 @@
   }
   
   .header-logo img {
-    width: 100px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Adjust width as needed */
+    height: 6vw; /* Maintain aspect ratio */
+  }
+
+  .header-logo-placeholder {
+    display: flex;
+    align-items: center;
+    opacity: 0;
+  }
+
+  .header-logo-placeholder img {
+    width: auto; /* Adjust width as needed */
+    height: 6vw; /* Maintain aspect ratio */
   }
   
   .header-links {
+    font-size: 2vw;
     display: flex;
-    gap: 100px;
+    gap: 5vw;
   }
   
   .header-link {
