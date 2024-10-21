@@ -4,7 +4,7 @@ import { MdMenu, MdClose } from 'react-icons/md';
 import '../styles/MobileHeader.css'; // Import the CSS file
 import "../Pages/Team.tsx";
 import "../Pages/Home.tsx";
-import "../Pages/Events"
+import "../Pages/Events.tsx";
 
 const navItems = [
   { name: 'Home', href: '/Home' },
