@@ -8,7 +8,6 @@ import "../Pages/Events.tsx";
 
 const navItems = [
   { name: 'Home', href: '/Home' },
-  { name: 'About', href: '/About' },
   { name: 'Events', href: '/Events' },
   { name: 'HY In Action', href: '/Explore' },
   { name: 'Our Team', href: '/Team' },

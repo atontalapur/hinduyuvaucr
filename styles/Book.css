@@ -25,14 +25,6 @@
     animation-delay: 0.2s;
 }
 
-.home-background {
-    background-image: url('/Sankalp.jpeg');
-    background-position: center; /* Center the background image */
-    background-size: 100%; /* Ensure the image covers the entire element */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    
-}
-
 @keyframes fadeInUp-book-img {
     0% {
         opacity: 50%;
@@ -75,13 +67,7 @@
     font-size: 20px;
     cursor: pointer;
     margin-top: 30px;
-
     
-    
-
-    
-    /* background: -webkit-linear-gradient(20deg, #da48ff,#4fcdff); */
-
     box-shadow:
     
     /* outer white  */
@@ -100,9 +86,6 @@
 .buy-book:hover{
 
     transform: scale(1.08);
-
-    /* background: rgb(214,137,255); */
-    /* background: linear-gradient(126deg, rgba(214,137,255,1) 0%, rgba(115,241,255,1) 100%); */
     background-color: #f16037;
 
 

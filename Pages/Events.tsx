@@ -14,9 +14,10 @@ class Event {
   private title: string;
   private description: string;
 
-  constructor(_date: string, _title: string, _description: string) {
-    this.date = new Date(_date);
+  constructor(_title: string, _date: string, _description: string) {
+
     this.title = _title;
+    this.date = new Date(_date);
     this.description = _description;
   }
 
@@ -29,9 +30,9 @@ class Event {
 // Add events here
 const myEvents = [
 
-  new Event("October 18, 2024 18:00", "Learn Sanskrit", "Description"),
-  new Event("October 15, 2024 16:30", "Hindu Heritage Month - Being an American Hindu", "Description"),
-  new Event("October 23, 2024 16:00", "Diwali Diya Decoration", "Description")
+  new Event("Learn Sanskrit", "October 18, 2024 18:00", "Description"),
+  new Event("Hindu Heritage Month - Being an American Hindu", "October 15, 2024 16:30", "Description"),
+  new Event("Diwali Diya Decoration", "October 23, 2024 16:00", "Description")
 ];
 
 // TODO Process clicks on calendar tiles and show descriptions
@@ -102,12 +103,12 @@ export default function EventsCalendar() {
     return (
       <div>
         <MobileHeader />
-        <p className='font-bold lg:text-6xl mt-[13%] ml-4'>
-            Events
-          </p>
-          <p className='standard-animation text-3xl mt-1 ml-4'>
-            Discover the Events in Hindu YUVA
-          </p>
+        <h1 className='font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%] ml-4'>
+          Events
+        </h1>
+        <p className='standard-animation text-3xl mt-1 ml-4'>
+          Discover the Events in Hindu YUVA
+        </p>
         <div className="MyCalendar">
           <div className="MyCalendar_container">
             <main className="MyCalendar_container_content">

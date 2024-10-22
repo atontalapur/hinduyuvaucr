@@ -35,9 +35,8 @@ export default function Home() {
     const [isMobile, setIsMobile] = useState(false);
 
     const homeRef = useRef(null);
-    const { ref: aboutRef, inView: aboutInView } = useInView({ triggerOnce: true, threshold: 0.1 });
-    const { ref: youtubeRef, inView: youtubeInView } = useInView({ triggerOnce: true, threshold: 0.1 });
-
+    const { ref: igRef, inView: igInView } = useInView({ triggerOnce: true, threshold: 0.1 });
+    
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 1024); // This matches Tailwind's 'md' breakpoint
@@ -123,7 +122,7 @@ export default function Home() {
                     </div>
 
                 </section>
-                <section className='center'>
+                <section ref={igRef} className={`center regular-text pb-16 ml-4 transition-opacity duration-1000 ${igInView ? 'opacity-100' : 'opacity-0'}`} >
                     <div
                         className='mt-16 mb-(-4)'
                         style={{ display: "flex", justifyContent: "center" }}>
@@ -208,7 +207,7 @@ export default function Home() {
                     </div>
 
                 </section>
-                <section className='standard-animation center'>
+                <section ref={igRef} className={`center regular-text pb-16 ml-4 transition-opacity duration-1000 ${igInView ? 'opacity-100' : 'opacity-0'}`} >
                     <div
                         className='mt-16 mb-(-4)'
                         style={{ display: "flex", justifyContent: "center" }}>

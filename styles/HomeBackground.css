@@ -100,12 +100,8 @@
     }
 }
 
-.about{
-    background-color: rgb(223, 132, 6);
-}
-
 .youtube-background{
-    background-color:rgb(223, 132, 6);
+    
     justify-content: center;
     align-items: center;
     display: flex;

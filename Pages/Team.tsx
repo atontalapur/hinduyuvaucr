@@ -157,9 +157,9 @@ export default function Team() {
                 <section
                     id='team'
                     className='min-h-screen flex flex-col justify-center'>
-                     <p className='standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
+                    <h1 className='font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%] ml-4'>
                         Our Team
-                    </p>
+                    </h1>
                     <p className='standard-animation text-3xl mt-1 ml-4'>
                         Meet the team that makes Hindu YUVA at UC Riverside
                     </p>
@@ -182,14 +182,14 @@ export default function Team() {
                             role='Vice President'
 
                         />
-                       
+
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Ram Rao'
                             role='Treasurer | Developer'
 
                         />
-                         <Member
+                        <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Advaith T'
                             role='Events and GBM Director | Dev'

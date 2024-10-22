@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 90px;
+    padding: 20px 30px;
     margin: 12px 10px;
     border-radius: 20px;
     opacity: 0;
@@ -14,10 +14,27 @@
     transition: 0.6s;
 }
 
+.mobile-philosphy-card-container{
+  background-color: rgba(0, 0, 0, 1);
+  border: 2px solid rgba(201, 137, 137,0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px;
+  margin: 12px 10px;
+  border-radius: 20px;
+  opacity: 0;
+  animation-name: fadeInUp;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  transition: 0.6s;
+}
+
+
 .philosphy-card-container:hover{
   padding: 100px 90px;
   opacity: 0.8;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255,255,255,.6)), url("../public/practice.png");
+  
 }
 
 
@@ -33,23 +50,58 @@
   transition: 0.6s;
 }
 
+.mobile-philophy-title{
+  /* text-transform: uppercase; */
+  font-family: 'Inter', sans-serif;
+  font-size: 4.5vw;
+  
+  font-weight: 520;
+  /* color:rgb(42, 42, 42); */
+  /* color: rgb(255, 247, 235); */
+  color: rgb(250, 100, 0);
+  transition: 0.6s;
+}
+
 
 .philophy-info{
     /* text-transform: uppercase; */
     font-family: 'Inter', sans-serif;
-    font-size: 0.7vw;
+    font-size: 0.5vw;
     
-    font-weight: 200;
+    font-weight: 400;
     /* color:rgb(42, 42, 42); */
     /* color: rgb(255, 247, 235); */
     color: rgb(250, 100, 0);
     opacity: 0;
     transition: 0.6s;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+    max-width: fit-content;
+margin-left: auto;
+margin-right: auto;
+}
+
+.mobile-philophy-info{
+  /* text-transform: uppercase; */
+  font-family: 'Inter', sans-serif;
+  font-size: 3.5vw;
+  
+  font-weight: 400;
+  /* color:rgb(42, 42, 42); */
+  /* color: rgb(255, 247, 235); */
+  color: rgb(250, 100, 0);
+  opacity: 1;
+  transition: 0.6s;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .philophy-info:hover{
   opacity: 1;
   font-size: 1.5vw;
+  
 }
 
 .center {
@@ -65,4 +117,9 @@ margin-right: auto;
   border-bottom: 3px solid black;
   position: absolute;
   
-  }
+}
+
+.regular-text{
+  white-space: normal;
+  text-overflow: ellipsis;
+}
