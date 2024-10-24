@@ -110,7 +110,7 @@ export default function Home() {
                 </p>
                 <a
                 target='_blank'
-                className='text-center banner-text'
+                className='justify-center mb-12 text-center banner-text'
                 href='/Explore'>
                 <button className=' buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
                 More About Us
@@ -183,7 +183,7 @@ export default function Home() {
                   target='_blank'
                   className='z-auto'
                   href='/Explore'>
-                  <button className=' buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
+                  <button className='items-center text-center buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
                     More About Us
                   </button>
                 </a>

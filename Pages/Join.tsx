@@ -67,7 +67,7 @@ export default function Home() {
             <section className='font'>
                 <MobileHeader />
 
-                <p className='standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
+                <p className='standard-animation font-bold text-4xl mt-[13%] ml-4'>
                     Get Involved
                 </p>
                 <p className='standard-animation text-3xl mt-1 ml-4'>
@@ -122,13 +122,13 @@ export default function Home() {
                     </div>
 
                 </section>
-                <section ref={igRef} className={`center regular-text pb-16 ml-4 transition-opacity duration-1000 ${igInView ? 'opacity-100' : 'opacity-0'}`} >
+                <section ref={igRef} className={`center regular-text pb-16 ml-4 transition-opacity duration-1000 mr-4 ${igInView ? 'opacity-100' : 'opacity-0'}`} >
                     <div
                         className='mt-16 mb-(-4)'
                         style={{ display: "flex", justifyContent: "center" }}>
                         <InstagramEmbed
                             url='https://www.instagram.com/ucrhinduyuva/'
-                            width={800}
+                            width={500}
                         />
                     </div>
                 </section>

@@ -42,13 +42,13 @@ export default function MobileHeader() {
 
   return (
     <div className='mobile-header ml-7 '>
-      <a href="/Home">
+      <Link href="/Home">
         <img
           src='/HinduYUVA-NBUCR.png'
           alt='The American Hindu Logo'
           className='w-90 h-90 object-cover rounded-full overflow-hidden max-w-[140px] max-h-[140px] '
         />
-      </a>
+      </Link>
       <div className='menu-icon-box' onClick={toggleMenu}>
         {menu ? (
           <MdClose className='menu-icon' size={40} />

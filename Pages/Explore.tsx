@@ -198,7 +198,7 @@ export default function Home() {
                         </p>
 
                         <img
-                            className=' center rounded-xl max-w-[100%] max-h-[55%] book-img-blur book-img-style'
+                            className=' center rounded-xl w-11/12 max-w-[100%] max-h-[55%] book-img-blur book-img-style'
                             src='/stats.png'
                         />
                         <div className='center map-size '>

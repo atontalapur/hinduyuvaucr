@@ -10,10 +10,13 @@
     grid-template-columns: repeat(3, 1fr); /* 4 columns */
     gap: 180px; /* Space between icons */
   }
+
+
   .mobile-join-us-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 4 columns */
-    gap: 25px; /* Space between icons */
+    gap: 80px; /* Space between icons */
+    font-size: 3rem;
   }
 
   .join-us-content .icon {

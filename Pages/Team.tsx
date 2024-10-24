@@ -52,14 +52,14 @@ export default function Team() {
                 <MobileHeader />
                 <section
                     id='team'
-                    className='font min-h-screen flex flex-col items-center justify-center '>
-                    <p className='font-bold lg:text-6xl mt-[13%] ml-4'>
+                    className='font min-h-screen flex flex-col  '>
+                    <p className='font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl ml-4 mt-[13%]'>
                         Our Team
                     </p>
-                    <p className='text-3xl mt-1 ml-4'>
+                    <p className=' text-2xl mt-1 ml-4'>
                         Meet the team that makes Hindu YUVA at UC Riverside
                     </p>
-                    <p className='text-4xl sm:text-2xl lg:text-4xl text-center mt-[5%]'>
+                    <p className='text-3xl sm:text-2xl lg:text-4xl text-center mt-[5%]'>
                         Excecutive Committee
                     </p>
                     <div className='mobile-member-card-container'>
@@ -97,7 +97,7 @@ export default function Team() {
 
                         />
                     </div>
-                    <p className='text-4xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
+                    <p className='text-3xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
                         Events Committee
                     </p>
                     <div className='mobile-member-card-container'>
@@ -121,7 +121,7 @@ export default function Team() {
                         />
 
                     </div>
-                    <p className='text-4xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
+                    <p className='text-3xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
                         Social Media and Public Relations Committee
                     </p>
                     <div className='mobile-member-card-container'>
