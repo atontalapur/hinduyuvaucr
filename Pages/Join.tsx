@@ -64,7 +64,7 @@ export default function Home() {
 
     if (isMobile) {
         return (
-            <section>
+            <section className='font'>
                 <MobileHeader />
 
                 <p className='standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
@@ -142,20 +142,20 @@ export default function Home() {
         );
     } else {
         return (
-            <section>
+            <section className='font'>
                 <Header />
 
-                <p className='standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
+                <p className='center standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
                     Get Involved
                 </p>
-                <p className='standard-animation text-3xl mt-1 ml-4'>
+                <p className='center standard-animation text-3xl mt-1 ml-4'>
                     Join us to spread awareness about Hindu Dharma on campus, meet
                 </p>
-                <p className='standard-animation text-3xl mt-1 ml-4'>
+                <p className='center standard-animation text-3xl mt-1 ml-4'>
                     new people, and develop our own leadership and organizational skills.
                 </p>
 
-                <section className='standard-animation join-us-container'>
+                <section className=' standard-animation join-us-container'>
                     <div className=" join-us-content text-7xl " >
                         <a
                             className='icon'

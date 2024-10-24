@@ -19,12 +19,13 @@
   .join-us-content .icon {
     width: 120px; /* Adjust the size of the icons */
     height: 120px;
-    background-color: #b76262; /* Background color for the icons */
+    background-color: #000000; /* Background color for the icons */
+    color: rgb(240, 132, 31);
     border-radius: 50%; /* Make the icons circular */
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    box-shadow: 0 4px 8px rgb(240, 132, 31); /* Add a shadow effect */
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
   }
   

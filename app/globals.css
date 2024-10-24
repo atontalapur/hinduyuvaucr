@@ -5,6 +5,11 @@
 body {
   color: #000000;
   background-color: rgb(240, 132, 31)
+ 
+}
+
+.font{
+  font-family: "Times New Roman";
 }
 
 @layer utilities {

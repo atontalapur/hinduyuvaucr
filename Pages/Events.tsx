@@ -10,8 +10,9 @@ import MobileFooter from "../components/MobileFooter";
 import "../app/globals.css";
 
 class Event {
-  public date: Date;
   private title: string;
+  public date: Date;
+  
   private description: string;
 
   constructor(_title: string, _date: string, _description: string) {
@@ -101,7 +102,7 @@ export default function EventsCalendar() {
 
   if (isMobile) {
     return (
-      <div>
+      <div className='font'>
         <MobileHeader />
         <h1 className='font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%] ml-4'>
           Events
@@ -124,13 +125,13 @@ export default function EventsCalendar() {
     );
   } else {
     return (
-      <div>
+      <div className='font'>
         <Header />
         <section>
-          <p className='standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
+          <p className='center standard-animation font-bold lg:text-6xl mt-[13%] ml-4'>
             Events
           </p>
-          <p className='standard-animation text-3xl mt-1 ml-4'>
+          <p className='center standard-animation text-3xl mt-1 ml-4'>
             Discover the Events in Hindu YUVA
           </p>
         </section>

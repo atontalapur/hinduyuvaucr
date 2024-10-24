@@ -60,7 +60,7 @@ export default function Home() {
     return (
       <>
         <MobileHeader />
-        <div className='z-50'>
+        <div className='font z-50'>
           <section className='pt-[29%]'>
             <div className='slider mt-[-30.5%] '>
               <figure>
@@ -140,7 +140,7 @@ export default function Home() {
       <>
         <Header />
         <main >
-          <section id="#home">
+          <section className='font'>
             <div className='banner-container'>
               <div className='banner-text'>
                 <h1 className='mt-[25%]'> Hindu YUVA at </h1>
@@ -167,10 +167,10 @@ export default function Home() {
           </section>
 
           <section ref={aboutRef} className={`transition-opacity duration-1000 ${aboutInView ? 'opacity-100' : 'opacity-0'}`}>
-            <h2 className=' text-4xl font-bold justify-center mt-11 ml-[40%]'>Who We Are</h2>
+            <h2 className=' font text-4xl font-bold justify-center mt-11 ml-[40%]'>Who We Are</h2>
             <section
               id='about'
-              className=' min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>
+              className=' font min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-[-6%]'>
 
               <div className='items-center text-center mb-[9%]'>
                 <h2 className='text-2xl text-black text-center mr-9 pl-12 pr-12 pb-8'>

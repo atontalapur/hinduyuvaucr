@@ -68,7 +68,7 @@ export default function Home() {
 
     if (isMobile) {
         return (
-            <section>
+            <section className='font'>
                 <MobileHeader />
                 <section>
                     <section className='regular-text ml-4'>
@@ -223,7 +223,7 @@ export default function Home() {
                             src='/VH.png'
                         />
                         <div className='min-h-screen flex flex-row items-center justify-center mt-[-22%]'>
-                            <p className='text-2xl text-black text-center pb-8'>
+                            <p className='text-2xl text-black text-center pb-8 ml-2 mr-2'>
                                 The growing Hindu student population in American universities has highlighted
                                 the need for establishing Hindu Cultural Centers on college campuses to ensure a
                                 consistent Hindu presence and perspective within academic settings. These centers,
@@ -278,16 +278,16 @@ export default function Home() {
         );
     } else {
         return (
-            <section>
+            <section className='font'>
                 <Header />
                 <section>
                     <section className='regular-text ml-7'>
 
                         <section ref={missionRef} className={`transition-opacity duration-1000 ${missionInView ? 'opacity-100' : 'opacity-0'}`}>
-                            <h1 className='font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%]'>
-                                Our Mission & Vission
+                            <h1 className='center font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%]'>
+                                Our Mission & Vision
                             </h1>
-                            <h2 className='standard-animation text-2xl pt-5'>
+                            <h2 className='center standard-animation text-2xl pt-5'>
                                 Preserving Hindu Culture, Empowering Youth one step at a time.
                             </h2>
                             <div className=''>
@@ -431,7 +431,7 @@ export default function Home() {
                             Vivekananda House
                         </p>
                         <div className='min-h-screen flex flex-row items-center justify-center'>
-                            <p className='items-center text-center text-2xl sm:text-2xl lg:text-2xl '>
+                            <p className='text-left text-2xl sm:text-2xl lg:text-2xl pr-2 pl-2'>
                                 The growing Hindu student population in American universities has highlighted the need for establishing Hindu Cultural Centers on college campuses. These centers would ensure a consistent Hindu presence and perspective within academic settings. Although Hindu student groups are present on many campuses, they often struggle with continuity due to the transient nature of student populations. To address this, the proposed solution is the Vivekananda House—a residential facility designed to serve as a central hub for Hindu cultural activities and events, modeled after existing cultural houses on U.S. campuses. This initiative, led by the Hindu Society of America, seeks to institutionalize Hindu representation in university life.
                             </p>
                             <img
@@ -449,8 +449,8 @@ export default function Home() {
                                 className='rounded-lg mb-[7%] ml-7 content-right max-w-[30%] max-h-[55%] book-img-blur book-img-style'
                                 src='/HMSA.png'
                             />
-                            <p className='items-center text-center text-2xl sm:text-2xl lg:text-2xl '>
-                                Hindu Medical Society of America (HMSA) provides a platform to connect medical students, residents and professionals to understand medicine through the lens of Hindu Dharma. By providing a platform for Sewa, Education and Representation, HMSA aims to create a strong network of physicians inspired by the Hindu Way of Life.
+                            <p className='items-center text-left text-2xl sm:text-2xl lg:text-2xl pr-2 pl-16 pb-16'>
+                                Hindu Medical Society of America (HMSA) provides a platform to connect medical students, residents and professionals to understand medicine through the lens of Hindu Dharma. By providing a platform for Sewa, Education and Representation, HMSA aims to create a strong network of physicians inspired by the Hindu Way of Life.HMSA provides opportunities for its members to network and find mentors/mentees, participate in healthcare-related sewa activities, educate the community on both healthcare and Hindu culture, conduct and present research related to Hindu Dharma and medicine, and much more. Building a strong connection among present and future Hindu physicians will be valuable for the physicians, their patients, and the field of medicine.
                             </p>
 
                         </div>
@@ -459,7 +459,7 @@ export default function Home() {
                             The American Hindu
                         </p>
                         <div className='min-h-screen flex flex-row items-center justify-center'>
-                            <p className='items-center text-center text-2xl sm:text-2xl lg:text-2xl '>
+                            <p className='items-center text-left text-2xl sm:text-2xl lg:text-2xl pr-16 pl-2'>
                                 The American Hindu is a dynamic, youth-driven initiative that began as an Instagram content creator in January 2020.
 
                                 The American Hindu has since evolved into a self-publishing organization specializing in a diverse range of Hindu educational content. Through a blend of traditional and modern mixed-media formats, including print and digital publications, videos, and interactive resources, the organization aims to make Hindu culture, philosophy, and history accessible and engaging for a wide audience. By empowering young creators and fostering a collaborative environment, The American Hindu preserves and promotes cultural heritage and encourages the exploration and understanding of Hindu traditions in a contemporary context.

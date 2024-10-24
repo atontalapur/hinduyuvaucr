@@ -52,7 +52,7 @@ export default function Team() {
                 <MobileHeader />
                 <section
                     id='team'
-                    className='min-h-screen flex flex-col items-center justify-center '>
+                    className='font min-h-screen flex flex-col items-center justify-center '>
                     <p className='font-bold lg:text-6xl mt-[13%] ml-4'>
                         Our Team
                     </p>
@@ -103,7 +103,7 @@ export default function Team() {
                     <div className='mobile-member-card-container'>
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
-                            name='Rupa V Gowda'
+                            name='Rupa V Gowd'
                             role='Events Coordinator'
 
                         />
@@ -156,11 +156,11 @@ export default function Team() {
                 <Header />
                 <section
                     id='team'
-                    className='min-h-screen flex flex-col justify-center'>
-                    <h1 className='font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%] ml-4'>
+                    className=' min-h-screen flex flex-col justify-center'>
+                    <h1 className='font center font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%] ml-4'>
                         Our Team
                     </h1>
-                    <p className='standard-animation text-3xl mt-1 ml-4'>
+                    <p className='center standard-animation text-3xl mt-1 ml-4'>
                         Meet the team that makes Hindu YUVA at UC Riverside
                     </p>
                     <p className='standard-animation text-2xl sm:text-2xl lg:text-4xl text-center mt-[5%]'>
@@ -208,7 +208,7 @@ export default function Team() {
                     <div className='team-page-container'>
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
-                            name='Rupa V Gowda'
+                            name='Rupa V Gowd'
                             role='Events Coordinator'
 
                         />
