@@ -3,16 +3,16 @@ import Calendar from 'react-calendar';
 import { differenceInCalendarDays } from 'date-fns';
 import "../styles/MyCalendar.css"
 import Member from "../components/Member.js";
-import Header from "../components/Header";
+import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.js";
-import MobileHeader from "../components/MobileHeader";
-import MobileFooter from "../components/MobileFooter";
+import MobileHeader from "../components/MobileHeader.jsx";
+import MobileFooter from "../components/MobileFooter.js";
 import "../app/globals.css";
 
 class Event {
   private title: string;
   public date: Date;
-  
+
   private description: string;
 
   constructor(_title: string, _date: string, _description: string) {
