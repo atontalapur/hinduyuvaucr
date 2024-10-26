@@ -3,33 +3,18 @@
 import React from "react";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
-import "./Events"
-import Image from "next/image";
-import Member from "../components/Member";
 import "../styles/HomeBackground.css";
 import "../styles/GetInvolved.css";
 import "../styles/Explore.css";
-// import Navbar from "../components/Navbar";
 import "../styles/Book.css";
 import "../styles/Scroll.css";
 import "../styles/GetInvolved.css";
 import "@fontsource/clear-sans";
-import { BsFacebook, BsSubscript, BsTwitterX, BsWhatsapp, BsYoutube } from "react-icons/bs";
-import { FaInstagram } from "react-icons/fa";
-import { MdEmail, MdTipsAndUpdates, MdUpdate } from "react-icons/md";
 import { useState, useEffect } from "react";
-import { Link, Element } from 'react-scroll';
 import Footer from "../components/Footer";
 import MobileFooter from "../components/MobileFooter";
-import { InstagramEmbed } from 'react-social-media-embed';
-import { Homemade_Apple } from "next/font/google";
 import { useInView } from "react-intersection-observer";
 import { useRef } from "react";
-import { FaDiscord, FaYoutube } from "react-icons/fa6";
-import { GoOrganization } from "react-icons/go";
-import { SiGoogleforms } from "react-icons/si";
-import { GiJoin } from "react-icons/gi";
-import { GrGroup } from "react-icons/gr";
 
 
 export default function Home() {

@@ -3,9 +3,9 @@ import Calendar from 'react-calendar';
 import { differenceInCalendarDays } from 'date-fns';
 import "../styles/MyCalendar.css"
 import Member from "../components/Member.js";
-import Header from "../components/Header.jsx";
+import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.js";
-import MobileHeader from "../components/MobileHeader.jsx";
+import MobileHeader from "../components/MobileHeader.tsx";
 import MobileFooter from "../components/MobileFooter.js";
 import "../app/globals.css";
 
