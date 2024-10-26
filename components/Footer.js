@@ -3,9 +3,9 @@ import Link from 'next/link';
 import '../styles/Footer.css'; // Import the CSS file
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import "../Pages/Team.tsx";
-import "../Pages/Home.tsx";
-import "../Pages/Events"
+import "../pages/Team.tsx";
+import "../pages/Home.tsx";
+import "../pages/Events.tsx"
 
 const Footer = () => {
     return (
@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             <div className='footer-links-container'>
                 <div className=" ceter text-black text-3xl footer-links mt-[-28%] mr-[-15%]">
-                    
+
                     <Link href="/Events" className="footer-link">Events</Link>
                     <Link href="/Explore" className="footer-link">Hindu YUVA In Action</Link>
                     <Link href="/Team" className="footer-link">Our Team</Link>

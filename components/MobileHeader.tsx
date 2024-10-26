@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { MdMenu, MdClose } from 'react-icons/md';
 import '../styles/MobileHeader.css'; // Import the CSS file
-import "../Pages/Team.tsx";
-import "../Pages/Home.tsx";
-import "../Pages/Events.tsx";
+import "../pages/Team.tsx";
+import "../pages/Home.tsx";
+import "../pages/Events.tsx";
 
 const navItems = [
   { name: 'Home', href: '/Home' },

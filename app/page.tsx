@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
-import "../Pages/Events"
+import "../pages/Events"
 import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/HomeBackground.css";
@@ -109,14 +109,14 @@ export default function Home() {
                   to understand and practice Hindu Dharma or the Hindu way of life.
                 </p>
                 <a
-                target='_blank'
-                className='text-center banner-text'
-                href='/Explore'>
-                <button className=' buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
-                More About Us
-                </button>
-              </a>
-                
+                  target='_blank'
+                  className='text-center banner-text'
+                  href='/Explore'>
+                  <button className=' buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
+                    More About Us
+                  </button>
+                </a>
+
               </div>
 
             </section>

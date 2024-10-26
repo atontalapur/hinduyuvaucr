@@ -7,9 +7,9 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { BsFacebook, BsInstagram, BsTwitterX, BsYoutube } from "react-icons/bs";
 import "../styles/Header.css";
-import "../Pages/Team.tsx";
-import "../Pages/Home.tsx";
-import "../Pages/Events.tsx";
+import "../pages/Team.tsx";
+import "../pages/Home.tsx";
+import "../pages/Events.tsx";
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState("");
@@ -53,7 +53,7 @@ export default function Header() {
           </a>
         </div>
         <nav className="header-links z-50 text-center">
-          
+
           <Link href="/Events" className={`header-link ${activeSection === "events" ? "active" : ""}`}>Events</Link>
           <Link href="/Explore" className={`header-link ${activeSection === "events" ? "active" : ""}`}>Hindu YUVA In Action</Link>
           <Link href="/Team" className={`header-link ${activeSection === "team" ? "active" : ""}`}>Team</Link>
@@ -61,7 +61,7 @@ export default function Header() {
           <Link href="https://store.hinduyuva.org/products/university-of-california-riverside" className={`header-link ${activeSection === "join" ? "active" : ""}`}>Shop</Link>
         </nav>
         <div className="z-50 header-logo-placeholder">
-          <Image src="/HinduYUVA-NBUCR.png" alt="Logo" width={200} height={80}/>
+          <Image src="/HinduYUVA-NBUCR.png" alt="Logo" width={200} height={80} />
         </div>
       </div>
     </header>
