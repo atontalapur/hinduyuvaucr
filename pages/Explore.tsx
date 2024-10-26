@@ -15,6 +15,7 @@ import Footer from "../components/Footer";
 import MobileFooter from "../components/MobileFooter";
 import { useInView } from "react-intersection-observer";
 import { useRef } from "react";
+import "../app/globals.css";
 
 
 export default function Home() {
