@@ -7,7 +7,7 @@
     padding: 20px 30px;
     margin: 12px 10px;
     border-radius: 20px;
-    opacity: 0;
+    opacity: 1;
     animation-name: fadeInUp;
     animation-duration: 0.7s;
     animation-fill-mode: forwards;
