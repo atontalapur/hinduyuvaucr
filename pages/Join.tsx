@@ -15,7 +15,7 @@ import "../styles/GetInvolved.css";
 import "@fontsource/clear-sans";
 import { BsFacebook, BsSubscript, BsTwitterX, BsWhatsapp, BsYoutube } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
-import { MdEmail, MdTipsAndUpdates, MdUpdate } from "react-icons/md";
+import { MdCardMembership, MdEmail, MdTipsAndUpdates, MdUpdate } from "react-icons/md";
 import { useState, useEffect } from "react";
 import { Link, Element } from 'react-scroll';
 import Footer from "../components/Footer";
@@ -36,7 +36,7 @@ export default function Home() {
 
     const homeRef = useRef(null);
     const { ref: igRef, inView: igInView } = useInView({ triggerOnce: true, threshold: 0.1 });
-    
+
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 1024); // This matches Tailwind's 'md' breakpoint
@@ -95,7 +95,7 @@ export default function Home() {
                         <a
                             className='card icon'
                             target='_blank'
-                            href='https://discord.gg/hXfKRxaa4f'>
+                            href='https://chat.whatsapp.com/Cdt1McAfWea16keiek3Tvc'>
                             <BsWhatsapp />
                         </a>
                         <a
@@ -114,7 +114,7 @@ export default function Home() {
                             className='card icon'
                             target='_blank'
                             href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
-                            <MdUpdate />
+                            <MdCardMembership />
 
                         </a>
 
@@ -180,7 +180,7 @@ export default function Home() {
                         <a
                             className='card icon'
                             target='_blank'
-                            href='https://discord.gg/hXfKRxaa4f'>
+                            href='https://chat.whatsapp.com/Cdt1McAfWea16keiek3Tvc'>
                             <BsWhatsapp />
                         </a>
                         <a
@@ -199,7 +199,7 @@ export default function Home() {
                             className='card icon'
                             target='_blank'
                             href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
-                            <SiMailchimp />
+                            <MdCardMembership />
 
                         </a>
 
