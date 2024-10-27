@@ -57,32 +57,32 @@ export default function Home() {
             <section className='font'>
                 <MobileHeader />
                 <section>
-                    <section className='regular-text ml-4'>
+                    <section className='regular-text pl-4'>
 
                         <section>
-                            <h1 className='font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%]'>
+                            <h1 className='font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl pt-[13%]'>
                                 Our Mission & Vission
                             </h1>
                             <h2 className='standard-animation text-2xl pt-5'>
                                 Preserving Hindu Culture, Empowering Youth one step at a time.
                             </h2>
                             <div className=''>
-                                <p className='font-semibold standard-animation text-3xl mt-16 ml-2'>
+                                <p className='font-semibold standard-animation text-3xl pt-16 pl-2'>
                                     Our Mission
                                 </p>
 
-                                <div className='standard-animation min-h-screen flex flex-row items-center justify-center mt-[-50%]'>
-                                    <p className='text-2xl sm:text-xl lg:text-xl mr-16 '>
+                                <div className='standard-animation min-h-screen flex flex-row items-center justify-center pt-[-50%]'>
+                                    <p className='text-2xl sm:text-xl lg:text-xl pr-16 '>
                                         To create a platform to protect, preserve, practice, and promote Hindu Dharma. We aim to develop character and leadership skills in our members by emphasizing values such as self-discipline, self-confidence, and a spirit of selfless service to the society.
                                     </p>
 
                                 </div>
 
-                                <h2 className='font-semibold standard-animation text-3xl mt-1 ml-2 mt-[-50%]'>
+                                <h2 className='font-semibold standard-animation text-3xl pt-1 pl-2 pt-[-50%]'>
                                     Our Vision
                                 </h2>
                                 <div className='standard-animation min-h-screen flex flex-row items-center justify-center '>
-                                    <p className='  text-2xl sm:text-2xl lg:text-2xl mr-16 mt-[-20%]'>
+                                    <p className='  text-2xl sm:text-2xl lg:text-2xl pr-16 pt-[-20%]'>
                                         Young Hindu Americans carry a great deal of responsibility to share this culture, preserve its meaning, and practice its universal values as the inheritors of this way of life. Hindu YUVA derives its inspiration from this ancient knowledge and understands the mammoth task lying in front of the young Hindu Americans. Hindu YUVA aims to provide a platform to preserve, practice, promote, and protect Hindu Dharma by bringing together Hindu college students and young professionals across the United States.
                                     </p>
 
@@ -166,8 +166,8 @@ export default function Home() {
                             </section>
                         </section>
                     </section>
-                    <section className='regular-text standard-animation pb-16 ml-4'>
-                        <p className='text-4xl sm:text-2xl lg:text-6xl mt-[4%] '>
+                    <section className='regular-text standard-animation pb-16 pl-4'>
+                        <p className='text-4xl sm:text-2xl lg:text-6xl pt-[4%] '>
                             North America's branches
 
                         </p>
@@ -195,21 +195,21 @@ export default function Home() {
                         </div>
                     </section>
 
-                    <section className='regular-text standard-animation pb-16 mb-[-10%]'>
-                        <p className='text-4xl mt-[4%] ml-4'>
+                    <section className='regular-text standard-animation pb-16 pb-[-10%]'>
+                        <p className='text-4xl pt-[4%] pl-4'>
                             Hindu YUVA's Contribution to Students and Campuses
                         </p>
 
                         {/* <div className='line'></div> */}
-                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl mt-[4%] ml-4 pb-16 mt-[30%] mb-[-20%]'>
+                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl pt-[4%] pl-4 pb-16 pt-[30%] pb-[-20%]'>
                             Vivekananda House
                         </p>
                         <img
                             className='center rounded-xl w-11/12 book-img-blur book-img-style'
                             src='/VH.png'
                         />
-                        <div className='min-h-screen flex flex-row items-center justify-center mt-[-22%]'>
-                            <p className='text-2xl text-black text-center pb-8 ml-2 mr-2'>
+                        <div className='min-h-screen flex flex-row items-center justify-center pt-[-22%]'>
+                            <p className='text-2xl text-black text-center pb-8 pl-2 pr-2'>
                                 The growing Hindu student population in American universities has highlighted
                                 the need for establishing Hindu Cultural Centers on college campuses to ensure a
                                 consistent Hindu presence and perspective within academic settings. These centers,
@@ -219,9 +219,9 @@ export default function Home() {
                             </p>
 
                         </div>
-                        {/* <div className='line mt-[-18%] '></div> */}
+                        {/* <div className='line pt-[-18%] '></div> */}
 
-                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl ml-4 pb-16  mb-[-20%] mt-[-20%]'>
+                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl pl-4 pb-16  pb-[-20%] pt-[-20%]'>
                             Hindu Medical Society of America
                         </p>
                         <img
@@ -230,13 +230,13 @@ export default function Home() {
                         />
                         <div className='min-h-screen flex flex-row items-center justify-center'>
 
-                            <p className='text-2xl text-black text-center pb-8 mt-[-72%]'>
+                            <p className='text-2xl text-black text-center pb-8 pt-[-72%]'>
                                 Hindu Medical Society of America (HMSA) provides a platform to connect medical students, residents and professionals to understand medicine through the lens of Hindu Dharma. By providing a platform for Sewa, Education and Representation, HMSA aims to create a strong network of physicians inspired by the Hindu Way of Life.
                             </p>
 
                         </div>
-                        {/* <div className='line mt-[-20%]'></div> */}
-                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl ml-4 pb-16 mb-[-20%] mt-[-72%]'>
+                        {/* <div className='line pt-[-20%]'></div> */}
+                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl pl-4 pb-16 pb-[-20%] pt-[-72%]'>
                             The American Hindu
                         </p>
                         <img
@@ -244,7 +244,7 @@ export default function Home() {
                             src='/TAH.webp'
                         />
                         <div className='min-h-screen flex flex-row items-center justify-center'>
-                            <p className='text-2xl text-black text-center pb-8 mt-16'>
+                            <p className='text-2xl text-black text-center pb-8 pt-16'>
                                 The American Hindu is a dynamic, youth-driven initiative that began as an Instagram content creator in January 2020.
 
                                 The American Hindu has since evolved into a self-publishing
@@ -267,31 +267,31 @@ export default function Home() {
             <section className='font'>
                 <Header />
                 <section>
-                    <section className='regular-text ml-7'>
+                    <section className='regular-text pl-7'>
 
-                        <section ref={missionRef} className={`transition-opacity duration-1000 ${missionInView ? 'opacity-100' : 'opacity-0'}`}>
-                            <h1 className='center font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%]'>
+                        <section ref={missionRef} className={`text-container transition-opacity duration-1000 ${missionInView ? 'opacity-100' : 'opacity-0'}`}>
+                            <h1 className='center font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl pt-[13%]'>
                                 Our Mission & Vision
                             </h1>
                             <h2 className='center standard-animation text-2xl pt-5'>
                                 Preserving Hindu Culture, Empowering Youth one step at a time.
                             </h2>
                             <div className=''>
-                                <h2 className=' font-semibold standard-animation lg:text-4xl pt-16 mr-16 '>
+                                <h2 className=' text-container font-semibold standard-animation lg:text-4xl pt-16 pr-16'>
                                     Our Mission
                                 </h2>
-                                <div className='standard-animation min-h-screen flex flex-row items-center justify-center mt-[-20%]'>
-                                    <p className='  text-2xl sm:text-2xl lg:text-2xlmr-16 mt-[-10%]'>
+                                <div className='text-container standard-animation min-h-screen flex flex-row items-center justify-center'>
+                                    <p className=' text-2xl sm:text-2xl lg:text-2xl pr-16 py-[-10]'>
                                         To create a platform to protect, preserve, practice, and promote Hindu Dharma. We aim to develop character and leadership skills in our members by emphasizing values such as self-discipline, self-confidence, and a spirit of selfless service to the society.
                                     </p>
 
                                 </div>
 
-                                <h2 className='font-semibold standard-animation lg:text-4xl  mr-16 mt-[-25%]'>
+                                <h2 className='font-semibold standard-animation lg:text-4xl  pr-16 pt-[-25%]'>
                                     Our Vision
                                 </h2>
-                                <div className='standard-animation min-h-screen flex flex-row items-center justify-center mt-[-18%]'>
-                                    <p className='  text-2xl sm:text-2xl lg:text-2xl mr-16 mt-[-10%]'>
+                                <div className='standard-animation min-h-screen flex flex-row items-center justify-center pt-[-18%]'>
+                                    <p className='  text-2xl sm:text-2xl lg:text-2xl pr-16 pt-[-10%]'>
                                         Young Hindu Americans carry a great deal of responsibility to share this culture, preserve its meaning, and practice its universal values as the inheritors of this way of life. Hindu YUVA derives its inspiration from this ancient knowledge and understands the mammoth task lying in front of the young Hindu Americans. Hindu YUVA aims to provide a platform to preserve, practice, promote, and protect Hindu Dharma by bringing together Hindu college students and young professionals across the United States.
                                     </p>
 
@@ -299,7 +299,7 @@ export default function Home() {
                             </div>
 
                         </section>
-                        <section ref={philosohpyRef} className={`mt-[-20%] transition-opacity duration-1000 ${philosophyInView ? 'opacity-100' : 'opacity-0'}`}>
+                        <section ref={philosohpyRef} className={`pt-[-20%] transition-opacity duration-1000 ${philosophyInView ? 'opacity-100' : 'opacity-0'}`}>
                             <p className='standard-animation text-4xl sm:text-2xl lg:text-6xl '>
                                 Philosophy of
                             </p>
@@ -374,9 +374,9 @@ export default function Home() {
                             </section>
                         </section>
                     </section>
-                    <section ref={chapterRef} className={`regular-text pb-16 ml-4 transition-opacity duration-1000 ${chapterInView ? 'opacity-100' : 'opacity-0'}`}>
+                    <section ref={chapterRef} className={`regular-text pb-16 pl-4 transition-opacity duration-1000 ${chapterInView ? 'opacity-100' : 'opacity-0'}`}>
 
-                        <p className='text-4xl sm:text-2xl lg:text-6xl mt-[4%] '>
+                        <p className='text-4xl sm:text-2xl lg:text-6xl pt-[4%] '>
                             North America's branches
 
                         </p>
@@ -399,7 +399,7 @@ export default function Home() {
                                 src='/map.png'
                             />
                             <img
-                                className=' center rounded-xl max-w-[20%] max-h-[55%] book-img-blur book-img-style'
+                                className=' center rounded-xl w-1/2  book-img-blur book-img-style'
                                 src='/stats.png'
                             />
 
@@ -407,13 +407,13 @@ export default function Home() {
 
                     </section>
 
-                    <section ref={orgsRef} className={`regular-text  pb-16 mb-[-10%] transition-opacity duration-1000 ${orgsInView ? 'opacity-100' : 'opacity-0'}`} >
-                        <p className='text-4xl sm:text-2xl lg:text-6xl mt-[4%] ml-4'>
+                    <section ref={orgsRef} className={`regular-text  pb-16 pb-[-10%] transition-opacity duration-1000 ${orgsInView ? 'opacity-100' : 'opacity-0'}`} >
+                        <p className='text-4xl sm:text-2xl lg:text-6xl pt-[4%] pl-4'>
                             Hindu YUVA's Contribution to Students and Campuses
                         </p>
 
                         {/* <div className='line'></div> */}
-                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl mt-[4%] ml-4 mb-[-17%]'>
+                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl pt-[4%] pl-4 pb-[-17%]'>
                             Vivekananda House
                         </p>
                         <div className='min-h-screen flex flex-row items-center justify-center'>
@@ -421,18 +421,18 @@ export default function Home() {
                                 The growing Hindu student population in American universities has highlighted the need for establishing Hindu Cultural Centers on college campuses. These centers would ensure a consistent Hindu presence and perspective within academic settings. Although Hindu student groups are present on many campuses, they often struggle with continuity due to the transient nature of student populations. To address this, the proposed solution is the Vivekananda House—a residential facility designed to serve as a central hub for Hindu cultural activities and events, modeled after existing cultural houses on U.S. campuses. This initiative, led by the Hindu Society of America, seeks to institutionalize Hindu representation in university life.
                             </p>
                             <img
-                                className='rounded-lg mb-[7%] mr-7 content-right max-w-[30%] max-h-[55%] book-img-blur book-img-style'
+                                className='rounded-lg pb-[7%] pr-7 content-right max-w-[30%] max-h-[55%] book-img-blur book-img-style'
                                 src='/VH.png'
                             />
                         </div>
-                        {/* <div className='line mt-[-18%] '></div> */}
+                        {/* <div className='line pt-[-18%] '></div> */}
 
-                        <p className='font-semibold lg:text-5xl mt-[-14%] ml-4 mb-[-10%] '>
+                        <p className='font-semibold lg:text-5xl pt-[-14%] pl-4 pb-[-10%] '>
                             Hindu Medical Society of America
                         </p>
                         <div className='min-h-screen flex flex-row items-center justify-center'>
                             <img
-                                className='rounded-lg mb-[7%] ml-7 content-right max-w-[30%] max-h-[55%] book-img-blur book-img-style'
+                                className='rounded-lg pb-[7%] pl-7 content-right max-w-[30%] max-h-[55%] book-img-blur book-img-style'
                                 src='/HMSA.png'
                             />
                             <p className='items-center text-left text-2xl sm:text-2xl lg:text-2xl pr-2 pl-16 pb-16'>
@@ -440,8 +440,8 @@ export default function Home() {
                             </p>
 
                         </div>
-                        {/* <div className='line mt-[-20%]'></div> */}
-                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl ml-4 mt-[-14%] mb-[-13%] '>
+                        {/* <div className='line pt-[-20%]'></div> */}
+                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl pl-4 pt-[-14%] pb-[-13%] '>
                             The American Hindu
                         </p>
                         <div className='min-h-screen flex flex-row items-center justify-center'>
@@ -451,7 +451,7 @@ export default function Home() {
                                 The American Hindu has since evolved into a self-publishing organization specializing in a diverse range of Hindu educational content. Through a blend of traditional and modern mixed-media formats, including print and digital publications, videos, and interactive resources, the organization aims to make Hindu culture, philosophy, and history accessible and engaging for a wide audience. By empowering young creators and fostering a collaborative environment, The American Hindu preserves and promotes cultural heritage and encourages the exploration and understanding of Hindu traditions in a contemporary context.
                             </p>
                             <img
-                                className='rounded-lg mb-[7%] mr-7 content-right max-w-[30%] max-h-[55%] book-img-blur book-img-style'
+                                className='rounded-lg pb-[7%] pr-7 content-right max-w-[30%] max-h-[55%] book-img-blur book-img-style'
                                 src='/TAH.webp'
                             />
                         </div>

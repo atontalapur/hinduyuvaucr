@@ -1,3 +1,8 @@
+.text-container{
+  font-size: 0;
+  padding: 0;
+}
+
 .philosphy-card-container{
     background-color: rgba(0, 0, 0, 1);
     border: 2px solid rgba(201, 137, 137,0.6);
@@ -7,12 +12,20 @@
     padding: 20px 30px;
     margin: 12px 10px;
     border-radius: 20px;
-    opacity: 0;
+    opacity: 1;
     animation-name: fadeInUp;
     animation-duration: 0.7s;
     animation-fill-mode: forwards;
     transition: 0.6s;
 }
+
+
+.philosphy-card-container:hover{
+  padding: 100px 90px;
+  
+  
+}
+
 
 .mobile-philosphy-card-container{
   background-color: rgba(0, 0, 0, 1);
@@ -23,7 +36,7 @@
   padding: 10px 10px;
   margin: 12px 10px;
   border-radius: 20px;
-  opacity: 0;
+  opacity: 1;
   animation-name: fadeInUp;
   animation-duration: 0.7s;
   animation-fill-mode: forwards;
@@ -31,11 +44,6 @@
 }
 
 
-.philosphy-card-container:hover{
-  padding: 100px 90px;
-  opacity: 0.8;
-  
-}
 
 
 .philophy-title{
