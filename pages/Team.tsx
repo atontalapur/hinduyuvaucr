@@ -156,7 +156,7 @@ export default function Team() {
                 <Header />
                 <section
                     id='team'
-                    className=' min-h-screen flex flex-col justify-center'>
+                    className='font min-h-screen flex flex-col justify-center'>
                     <h1 className='font center font-bold standard-animation text-4xl sm:text-2xl lg:text-6xl mt-[13%] ml-4'>
                         Our Team
                     </h1>
