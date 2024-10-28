@@ -16,6 +16,7 @@ import MobileFooter from "../components/MobileFooter";
 import { useInView } from "react-intersection-observer";
 import { useRef } from "react";
 import "../app/globals.css";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -412,10 +413,10 @@ export default function Home() {
                             Hindu YUVA's Contribution to Students and Campuses
                         </p>
 
-                        {/* <div className='line'></div> */}
-                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl pt-[4vw]'>
+                        <Link href="https://www.vivekanandahouseus.org/" className="font-semibold text-4xl sm:text-2xl lg:text-5xl pt-7" target="_blank">
                             Vivekananda House
-                        </p>
+                        </Link>
+
                         <div className='flex flex-row items-center justify-center'>
                             <p className='text-left text-2xl sm:text-2xl lg:text-2xl pr-2 pl-2'>
                                 The growing Hindu student population in American universities has highlighted the need for establishing Hindu Cultural Centers on college campuses. These centers would ensure a consistent Hindu presence and perspective within academic settings. Although Hindu student groups are present on many campuses, they often struggle with continuity due to the transient nature of student populations. To address this, the proposed solution is the Vivekananda House—a residential facility designed to serve as a central hub for Hindu cultural activities and events, modeled after existing cultural houses on U.S. campuses. This initiative, led by the Hindu Society of America, seeks to institutionalize Hindu representation in university life.
@@ -427,9 +428,10 @@ export default function Home() {
                         </div>
                         {/* <div className='line mt-[-18%] '></div> */}
 
-                        <p className='font-semibold lg:text-5xl pt-[4vw]'>
+                        <Link href="https://www.hindumedicalsoc.org/" className="font-semibold lg:text-5xl pt-[4vw]" target="_blank">
                             Hindu Medical Society of America
-                        </p>
+                        </Link>
+
                         <div className='flex flex-row items-center align-middle justify-center pb-[4vw]'>
                             <img
                                 className='rounded-lg ml-7 content-right max-w-[30%] max-h-[55%] book-img-blur book-img-style'
@@ -440,9 +442,11 @@ export default function Home() {
                             </p>
 
                         </div>
-                        {/* <div className='line mt-[-20%]'></div> */}
-                        <p className='font-semibold text-4xl sm:text-2xl lg:text-5xl pt-[4vw]'>
+                        <Link href="https://theamericanhindu.com/" className="font-semibold text-4xl sm:text-2xl lg:text-5xl pt-[4vw]" target="_blank">
                             The American Hindu
+                        </Link>
+                        <p className=''>
+
                         </p>
                         <div className='flex flex-row items-center justify-center pb-[6vw]'>
                             <p className='items-center text-left text-2xl sm:text-2xl lg:text-2xl pr-16 pl-2'>
