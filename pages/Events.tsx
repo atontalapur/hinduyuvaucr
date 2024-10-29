@@ -33,7 +33,9 @@ const myEvents = [
 
   new Event("Learn Sanskrit", "October 18, 2024 18:00", "Description"),
   new Event("Hindu Heritage Month - Being an American Hindu", "October 15, 2024 16:30", "Description"),
-  new Event("Diwali Diya Decoration", "October 23, 2024 16:00", "Description")
+  new Event("Diwali Diya Decoration", "October 23, 2024 16:00", "Description"),
+  new Event("HHM Movie night", "October 26, 2024 17:30", "Description"),
+  new Event("Hindu YUVA X HUB - Diwali Mela ", "November 06, 2024 11:00", "Join us for performences, free food, and fun acitivities!")
 ];
 
 // TODO Process clicks on calendar tiles and show descriptions
