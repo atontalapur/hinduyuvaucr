@@ -113,7 +113,7 @@ export default function Home() {
                         <a
                             className='card icon'
                             target='_blank'
-                            href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
+                            href='https://forms.gle/86RYoKfTwqRJvosr8'>
                             <MdCardMembership />
 
                         </a>
@@ -198,7 +198,7 @@ export default function Home() {
                         <a
                             className='card icon'
                             target='_blank'
-                            href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
+                            href='https://forms.gle/86RYoKfTwqRJvosr8'>
                             <MdCardMembership />
 
                         </a>
