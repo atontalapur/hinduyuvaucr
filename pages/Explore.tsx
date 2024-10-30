@@ -184,16 +184,16 @@ export default function Home() {
                             leadership and organizational skills.
                         </p>
 
-                        <img
-                            className=' center rounded-xl w-11/12 max-w-[100%] max-h-[55%] book-img-blur book-img-style'
-                            src='/stats.png'
-                        />
                         <div className='center map-size '>
                             <img
                                 className='center rounded-xl w-11/12 book-img-blur book-img-style'
                                 src='/map.png'
                             />
                         </div>
+                        <img
+                            className=' center rounded-xl w-11/12 max-w-[100%] max-h-[55%] book-img-blur book-img-style'
+                            src='/stats.png'
+                        />
                     </section>
 
                     <section className='regular-text standard-animation pb-16 mb-[-10%]'>

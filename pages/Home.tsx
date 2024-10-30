@@ -110,7 +110,7 @@ export default function Home() {
                 </p>
                 <a
                   target='_blank'
-                  
+
                   href='/Explore'>
                   <button className=' mt-[8%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
                     More About Us
@@ -138,8 +138,8 @@ export default function Home() {
   } else {
     return (
       <>
-        <Header />
-        <main >
+        <main className='font'>
+          <Header />
           <section className='font'>
             <div className='banner-container'>
               <div className='banner-text'>
