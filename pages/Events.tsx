@@ -35,7 +35,8 @@ const myEvents = [
   new Event("Hindu Heritage Month - Being an American Hindu", "October 15, 2024 16:30", "Description"),
   new Event("Diwali Diya Decoration", "October 23, 2024 16:00", "Description"),
   new Event("HHM Movie Night", "October 26, 2024 17:30", "Description"),
-  new Event("Hindu YUVA X HUB - Diwali Mela ", "November 06, 2024 11:00", "Join us for performences, free food, and fun acitivities!")
+  new Event("Hindu YUVA X HUB - Diwali Mela ", "November 06, 2024 11:00", "Join us for performences, free food, and fun acitivities!"),
+  new Event("Makar Sankranti - Kite Decoration ", "January 13, 2025 19:30", "Turning YOUR plastic bags into soaring kites! 🌱🪁 Join Hindu YUVA on Jan 13th to celebrate Makar Sankranti with sustainable kite making! Make sure to wear your favorite traditional cloths! RSVP link in Instagram.")
 ];
 
 // TODO Process clicks on calendar tiles and show descriptions
