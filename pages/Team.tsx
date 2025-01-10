@@ -68,20 +68,20 @@ export default function Team() {
                             <Member
                                 picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                                 name='Srivani Kollu'
-                                role='President'
+                                role='Campus Coordinator'
 
                             />
                         </div>
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Raghav Sharma'
-                            role='Vice President'
+                            role='Co-President'
 
                         />
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Advaith Tontalapur'
-                            role='Events and Meetings Chair | Dev'
+                            role='Co-President'
 
                         />
                         <Member
