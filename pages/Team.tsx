@@ -115,8 +115,8 @@ export default function Team() {
                         />
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
-                            name='Adeti Krishnan'
-                            role='GBM Coordinator'
+                            name='Tarun Vadapalli '
+                            role='GBM Coordinator | Developer'
 
                         />
 
@@ -129,12 +129,6 @@ export default function Team() {
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Yogi Marella'
                             role='Student Ambassador'
-
-                        />
-                        <Member
-                            picture={<img src={"/HinduYUVA-NBUCR.png"} />}
-                            name='Tarun Vadapalli'
-                            role='Graphic Designer | Developer'
 
                         />
                         <Member
