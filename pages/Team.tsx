@@ -160,33 +160,32 @@ export default function Team() {
                     <p className='standard-animation text-2xl sm:text-2xl lg:text-4xl text-center mt-[5%]'>
                         Excecutive Committee
                     </p>
-                    <div className='team-page-container'>
+                    <div className='mobile-member-card-container'>
 
                         <div className='pt-[-16%]'>
                             <Member
                                 picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                                 name='Srivani Kollu'
-                                role='President'
+                                role='Campus Coordinator'
 
                             />
                         </div>
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Raghav Sharma'
-                            role='Vice President'
+                            role='Co-President'
 
                         />
+                        <Member
+                            picture={<img src={"/HinduYUVA-NBUCR.png"} />}
+                            name='Advaith Tontalapur'
+                            role='Co-President'
 
+                        />
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Ram Rao'
                             role='Treasurer | Developer'
-
-                        />
-                        <Member
-                            picture={<img src={"/HinduYUVA-NBUCR.png"} />}
-                            name='Advaith T'
-                            role='Events and GBM Director | Dev'
 
                         />
                         <Member
@@ -196,10 +195,10 @@ export default function Team() {
 
                         />
                     </div>
-                    <p className='standard-animation text-2xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
+                    <p className='text-3xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
                         Events Committee
                     </p>
-                    <div className='team-page-container'>
+                    <div className='mobile-member-card-container'>
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Rupa V Gowd'
@@ -214,26 +213,20 @@ export default function Team() {
                         />
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
-                            name='Adeti Krishnan'
-                            role='GBM Coordinator'
+                            name='Tarun Vadapalli '
+                            role='GBM Coordinator | Developer'
 
                         />
 
                     </div>
-                    <p className='standard-animation text-2xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
+                    <p className='text-3xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
                         Social Media and Public Relations Committee
                     </p>
-                    <div className='team-page-container'>
+                    <div className='mobile-member-card-container'>
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Yogi Marella'
                             role='Student Ambassador'
-
-                        />
-                        <Member
-                            picture={<img src={"/HinduYUVA-NBUCR.png"} />}
-                            name='Tarun Vadapalli'
-                            role='Graphic Designer | Developer'
 
                         />
                         <Member
