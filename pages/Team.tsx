@@ -160,7 +160,7 @@ export default function Team() {
                     <p className='standard-animation text-2xl sm:text-2xl lg:text-4xl text-center mt-[5%]'>
                         Excecutive Committee
                     </p>
-                    <div className='mobile-member-card-container'>
+                    <div className='member-card-container'>
 
                         <div className='pt-[-16%]'>
                             <Member
@@ -198,7 +198,7 @@ export default function Team() {
                     <p className='text-3xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
                         Events Committee
                     </p>
-                    <div className='mobile-member-card-container'>
+                    <div className='member-card-container'>
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Rupa V Gowd'
@@ -222,7 +222,7 @@ export default function Team() {
                     <p className='text-3xl sm:text-2xl lg:text-4xl text-center mt-8 mb-8'>
                         Social Media and Public Relations Committee
                     </p>
-                    <div className='mobile-member-card-container'>
+                    <div className='member-card-container'>
                         <Member
                             picture={<img src={"/HinduYUVA-NBUCR.png"} />}
                             name='Yogi Marella'
