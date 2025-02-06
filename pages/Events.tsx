@@ -38,6 +38,7 @@ const myEvents = [
   new Event("Hindu YUVA X HUB - Diwali Mela ", "November 06, 2024 11:00", "Join us for performences, free food, and fun acitivities!"),
   new Event("Makar Sankranti - Kite Decoration ", "January 13, 2025 19:30", "Turning YOUR plastic bags into soaring kites! 🌱🪁 Join Hindu YUVA on Jan 13th to celebrate Makar Sankranti with sustainable kite making! Make sure to wear your favorite traditional cloths! RSVP link in Instagram."),
   new Event("Hindus in the Industry", "January 30, 2025 14:00", "Meet career professionals in the industry and learn about their experiences as Hindus in the workplace."),
+  new Event("Movie Night", "February 20, 2025 19:30", "Watch Kesatri with us!.")
 ];
 
 // TODO Process clicks on calendar tiles and show descriptions
