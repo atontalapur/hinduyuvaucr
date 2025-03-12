@@ -15,7 +15,7 @@ import "../styles/GetInvolved.css";
 import "@fontsource/clear-sans";
 import { BsFacebook, BsSubscript, BsTwitterX, BsWhatsapp, BsYoutube } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
-import { MdCardMembership, MdEmail, MdTipsAndUpdates, MdUpdate } from "react-icons/md";
+import { MdEmail, MdTipsAndUpdates, MdUpdate } from "react-icons/md";
 import { useState, useEffect } from "react";
 import { Link, Element } from 'react-scroll';
 import Footer from "../components/Footer";
@@ -36,7 +36,7 @@ export default function Home() {
 
     const homeRef = useRef(null);
     const { ref: igRef, inView: igInView } = useInView({ triggerOnce: true, threshold: 0.1 });
-
+    
     useEffect(() => {
         const handleResize = () => {
             setIsMobile(window.innerWidth < 1024); // This matches Tailwind's 'md' breakpoint
@@ -77,6 +77,17 @@ export default function Home() {
                     and develop our own leadership and organizational skills.
                 </p>
 
+                <p className='standard-animation font-bold text-2xl mt-[6%] ml-4'>
+                    Spring 2025 & 2025-2026 Board Application
+                </p>
+
+                <p className='center standard-animation text-3xl mt-1 ml-4'>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true" width="300" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </p>
+
+                <p className='center standard-animation font-bold text-2xl mt-[6%] ml-4'>
+                    Find us on Social Media!
+                </p>
                 <section className='standard-animation join-us-container'>
                     <div className=" mobile-join-us-content text-4xl " >
                         <a
@@ -95,7 +106,7 @@ export default function Home() {
                         <a
                             className='card icon'
                             target='_blank'
-                            href='https://chat.whatsapp.com/Cdt1McAfWea16keiek3Tvc'>
+                            href='https://discord.gg/hXfKRxaa4f'>
                             <BsWhatsapp />
                         </a>
                         <a
@@ -113,8 +124,8 @@ export default function Home() {
                         <a
                             className='card icon'
                             target='_blank'
-                            href='https://forms.gle/86RYoKfTwqRJvosr8'>
-                            <MdCardMembership />
+                            href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
+                            <MdUpdate />
 
                         </a>
 
@@ -155,7 +166,21 @@ export default function Home() {
                     new people, and develop our own leadership and organizational skills.
                 </p>
 
+                <p className='center standard-animation font-bold lg:text-4xl mt-[6%] ml-4'>
+                    Spring 2025 & 2025-2026 Board Application
+                </p>
+
+                <p className='center standard-animation text-3xl mt-1 ml-4'>
+
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true" width="700" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </p>
+
+                
+                <p className='center standard-animation font-bold lg:text-4xl mt-[6%] ml-4'>
+                    Find us on Social Media!
+                </p>
                 <section className=' standard-animation join-us-container'>
+               
                     <div className=" join-us-content text-7xl " >
                         <a
                             className='icon'
@@ -180,7 +205,7 @@ export default function Home() {
                         <a
                             className='card icon'
                             target='_blank'
-                            href='https://chat.whatsapp.com/Cdt1McAfWea16keiek3Tvc'>
+                            href='https://discord.gg/hXfKRxaa4f'>
                             <BsWhatsapp />
                         </a>
                         <a
@@ -198,8 +223,8 @@ export default function Home() {
                         <a
                             className='card icon'
                             target='_blank'
-                            href='https://forms.gle/86RYoKfTwqRJvosr8'>
-                            <MdCardMembership />
+                            href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
+                            <SiMailchimp />
 
                         </a>
 
