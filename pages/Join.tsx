@@ -82,7 +82,7 @@ export default function Home() {
                 </p>
 
                 <p className='center standard-animation text-3xl mt-1 ml-4'>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true" width="300" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true" width="300" height="640">Loading…</iframe>
                 </p>
 
                 <p className='center standard-animation font-bold text-2xl mt-[6%] ml-4'>
@@ -172,7 +172,7 @@ export default function Home() {
 
                 <p className='center standard-animation text-3xl mt-1 ml-4'>
 
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true" width="700" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true" width="700" height="640">Loading…</iframe>
                 </p>
 
                 
