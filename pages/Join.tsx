@@ -29,6 +29,7 @@ import { GoBroadcast, GoOrganization } from "react-icons/go";
 import { SiGoogleforms, SiMailchimp } from "react-icons/si";
 import { GiJoin } from "react-icons/gi";
 import { BiBroadcast } from "react-icons/bi";
+import { LiaLinkedin } from "react-icons/lia";
 
 
 export default function Home() {
@@ -124,8 +125,8 @@ export default function Home() {
                         <a
                             className='card icon'
                             target='_blank'
-                            href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
-                            <MdUpdate />
+                            href='https://linkedin.com/company/ucrhinduyuva/'>
+                            <LiaLinkedin />
 
                         </a>
 
@@ -223,8 +224,8 @@ export default function Home() {
                         <a
                             className='card icon'
                             target='_blank'
-                            href='https://docs.google.com/spreadsheets/d/1q0u1YOj2MJQJhNACP7zypsi4wrt5t-r0JTBYst4Swdg/edit?usp=sharing'>
-                            <SiMailchimp />
+                            href='https://linkedin.com/company/ucrhinduyuva/'>
+                            <LiaLinkedin />
 
                         </a>
 
