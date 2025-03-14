@@ -29,7 +29,8 @@ import { GoBroadcast, GoOrganization } from "react-icons/go";
 import { SiGoogleforms, SiMailchimp } from "react-icons/si";
 import { GiJoin } from "react-icons/gi";
 import { BiBroadcast } from "react-icons/bi";
-import { LiaLinkedin } from "react-icons/lia";
+import { LiaAnkhSolid, LiaLinkedin, LiaLinkSolid } from "react-icons/lia";
+
 
 
 export default function Home() {
@@ -78,9 +79,12 @@ export default function Home() {
                     and develop our own leadership and organizational skills.
                 </p>
 
-                <p className='standard-animation font-bold text-2xl mt-[6%] ml-4'>
-                    Spring 2025 & 2025-2026 Board Application
-                </p>
+                <a
+                  target='_blank'
+                  className='center standard-animation font-bold lg:text-4xl mt-[6%] block text-center align-middle ml-4 flex items-center justify-center'
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true'>
+                    Spring 2025 & 2025-2026 Board Application <LiaLinkSolid className='ml-2' />
+                  </a>
 
                 <p className='center standard-animation text-3xl mt-1 ml-4'>
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true" width="300" height="640">Loading…</iframe>
@@ -167,14 +171,30 @@ export default function Home() {
                     new people, and develop our own leadership and organizational skills.
                 </p>
 
-                <p className='center standard-animation font-bold lg:text-4xl mt-[6%] ml-4'>
-                    Spring 2025 & 2025-2026 Board Application
+                
+                <p className=''>
+                    
                 </p>
+                <a
+                  target='_blank'
+                  className='center standard-animation font-bold lg:text-4xl mt-[6%] block text-center align-middle ml-4 flex items-center justify-center'
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true'>
+                    Spring 2025 & 2025-2026 Board Application <LiaLinkSolid className='ml-2' />
+                  </a>
 
                 <p className='center standard-animation text-3xl mt-1 ml-4'>
 
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true" width="700" height="640">Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf99OVtNhCOlmtOW4IFxtzjmjHYFtleJZgYOmygYKOdtPUeqQ/viewform?embedded=true" width="700" height="640">Loading…</iframe>
                 </p>
+
+                {/* <a
+                  target='_blank'
+                  className=''
+                  href='https://highlanderlink.ucr.edu/organization/hinduyuvaucr'>
+                  <button className='center banner-tex mt-[8%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl '>
+                    Join Now
+                  </button>
+                </a> */}
 
                 
                 <p className='center standard-animation font-bold lg:text-4xl mt-[6%] ml-4'>
